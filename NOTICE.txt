@@ -1,0 +1,19 @@
+Third-party software included in the .exe files
+------------------------------------------------
+pygame / pygame-ce  - GNU LGPL 2.1  - https://www.pygame.org
+  (includes SDL2 - zlib licence, PortMidi - MIT licence)
+Python               - PSF licence   - https://www.python.org
+PyInstaller          - GPL 2 with the bootloader exception that allows
+                       distributing the resulting programs under any licence.
+
+Trademarks
+----------
+These are independent, unofficial control programs. Names of products such as
+POD, V-AMP, SC-88Pro, PSR-E223, VM200, TD-3, TD-6V, Pro VS Mini, GP-5, GP-200, MIDI Captain,
+Line 6, Behringer, Roland, Yamaha, Fostex, Valeton and Paint Audio belong
+to their respective owners and are used only to say which equipment the
+programs work with. They are not affiliated with or endorsed by those companies.
+
+The programs contain no manufacturer firmware, factory sound data, manuals, logos or
+artwork. Lists of names and parameter numbers are included only so the programs can
+label what your equipment reports.

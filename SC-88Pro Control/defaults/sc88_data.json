@@ -1,0 +1,8113 @@
+{
+ "_readme": "'gm' = fallback GM names. 'tones' = Native-map instrument names from the SC-88Pro manual: tones[program0-127][CC0 variation]. 'drum_kits' = drum set program numbers.",
+ "gm": [
+  "Acoustic Grand Piano",
+  "Bright Acoustic Piano",
+  "Electric Grand Piano",
+  "Honky-tonk Piano",
+  "Electric Piano 1",
+  "Electric Piano 2",
+  "Harpsichord",
+  "Clavinet",
+  "Celesta",
+  "Glockenspiel",
+  "Music Box",
+  "Vibraphone",
+  "Marimba",
+  "Xylophone",
+  "Tubular Bells",
+  "Dulcimer",
+  "Drawbar Organ",
+  "Percussive Organ",
+  "Rock Organ",
+  "Church Organ",
+  "Reed Organ",
+  "Accordion",
+  "Harmonica",
+  "Tango Accordion",
+  "Acoustic Guitar (nylon)",
+  "Acoustic Guitar (steel)",
+  "Electric Guitar (jazz)",
+  "Electric Guitar (clean)",
+  "Electric Guitar (muted)",
+  "Overdriven Guitar",
+  "Distortion Guitar",
+  "Guitar Harmonics",
+  "Acoustic Bass",
+  "Electric Bass (finger)",
+  "Electric Bass (pick)",
+  "Fretless Bass",
+  "Slap Bass 1",
+  "Slap Bass 2",
+  "Synth Bass 1",
+  "Synth Bass 2",
+  "Violin",
+  "Viola",
+  "Cello",
+  "Contrabass",
+  "Tremolo Strings",
+  "Pizzicato Strings",
+  "Orchestral Harp",
+  "Timpani",
+  "String Ensemble 1",
+  "String Ensemble 2",
+  "Synth Strings 1",
+  "Synth Strings 2",
+  "Choir Aahs",
+  "Voice Oohs",
+  "Synth Voice",
+  "Orchestra Hit",
+  "Trumpet",
+  "Trombone",
+  "Tuba",
+  "Muted Trumpet",
+  "French Horn",
+  "Brass Section",
+  "Synth Brass 1",
+  "Synth Brass 2",
+  "Soprano Sax",
+  "Alto Sax",
+  "Tenor Sax",
+  "Baritone Sax",
+  "Oboe",
+  "English Horn",
+  "Bassoon",
+  "Clarinet",
+  "Piccolo",
+  "Flute",
+  "Recorder",
+  "Pan Flute",
+  "Blown Bottle",
+  "Shakuhachi",
+  "Whistle",
+  "Ocarina",
+  "Lead 1 (square)",
+  "Lead 2 (sawtooth)",
+  "Lead 3 (calliope)",
+  "Lead 4 (chiff)",
+  "Lead 5 (charang)",
+  "Lead 6 (voice)",
+  "Lead 7 (fifths)",
+  "Lead 8 (bass + lead)",
+  "Pad 1 (new age)",
+  "Pad 2 (warm)",
+  "Pad 3 (polysynth)",
+  "Pad 4 (choir)",
+  "Pad 5 (bowed)",
+  "Pad 6 (metallic)",
+  "Pad 7 (halo)",
+  "Pad 8 (sweep)",
+  "FX 1 (rain)",
+  "FX 2 (soundtrack)",
+  "FX 3 (crystal)",
+  "FX 4 (atmosphere)",
+  "FX 5 (brightness)",
+  "FX 6 (goblins)",
+  "FX 7 (echoes)",
+  "FX 8 (sci-fi)",
+  "Sitar",
+  "Banjo",
+  "Shamisen",
+  "Koto",
+  "Kalimba",
+  "Bagpipe",
+  "Fiddle",
+  "Shanai",
+  "Tinkle Bell",
+  "Agogo",
+  "Steel Drums",
+  "Woodblock",
+  "Taiko Drum",
+  "Melodic Tom",
+  "Synth Drum",
+  "Reverse Cymbal",
+  "Guitar Fret Noise",
+  "Breath Noise",
+  "Seashore",
+  "Bird Tweet",
+  "Telephone Ring",
+  "Helicopter",
+  "Applause",
+  "Gunshot"
+ ],
+ "drum_kits": {
+  "0": "Standard",
+  "8": "Room",
+  "16": "Power",
+  "24": "Electronic",
+  "25": "TR-808",
+  "32": "Jazz",
+  "40": "Brush",
+  "48": "Orchestra",
+  "56": "SFX"
+ },
+ "tones": {
+  "0": {
+   "0": "Piano 1",
+   "8": "Piano 1w",
+   "16": "European Pf",
+   "24": "Piano Str."
+  },
+  "1": {
+   "0": "Piano 2",
+   "8": "Piano 2w",
+   "16": "Dance Piano"
+  },
+  "2": {
+   "0": "Piano 3",
+   "1": "EG+Rhodes 1",
+   "2": "EG+Rhodes 2",
+   "8": "Piano 3w"
+  },
+  "3": {
+   "0": "Honky-tonk",
+   "8": "Honky-tonk 2"
+  },
+  "4": {
+   "0": "E.Piano 1",
+   "8": "St.Soft EP",
+   "9": "Cho.E.Piano",
+   "10": "SilentRhodes",
+   "16": "FM+SA EP",
+   "17": "Dist E.Piano",
+   "24": "Wurly",
+   "25": "Hard Rhodes",
+   "26": "MellowRhodes"
+  },
+  "5": {
+   "0": "E.Piano 2",
+   "8": "Detuned EP 2",
+   "16": "St.FM EP",
+   "24": "Hard FM EP"
+  },
+  "6": {
+   "0": "Harpsichord",
+   "1": "Harpsichord2",
+   "8": "Coupled Hps.",
+   "16": "Harpsi.w",
+   "24": "Harpsi.o",
+   "32": "Synth Harpsi"
+  },
+  "7": {
+   "0": "Clav.",
+   "8": "Comp Clav.",
+   "16": "Reso Clav.",
+   "24": "Clav.o",
+   "32": "Analog Clav.",
+   "33": "JP8 Clav. 1",
+   "35": "JP8 Clav. 2"
+  },
+  "8": {
+   "0": "Celesta",
+   "1": "Pop Celesta"
+  },
+  "9": {
+   "0": "Glockenspiel"
+  },
+  "10": {
+   "0": "Music Box"
+  },
+  "11": {
+   "0": "Vibraphone",
+   "1": "Pop Vibe.",
+   "8": "Vibraphone w",
+   "9": "Vibraphones"
+  },
+  "12": {
+   "0": "Marimba",
+   "8": "Marimba w",
+   "16": "Barafon",
+   "17": "Barafon 2",
+   "24": "Log drum",
+   "154": ""
+  },
+  "13": {
+   "0": "Xylophone"
+  },
+  "14": {
+   "0": "Tubular-bell",
+   "8": "Church Bell",
+   "9": "Carillon"
+  },
+  "15": {
+   "0": "Santur",
+   "1": "Santur 2",
+   "8": "Cimbalom",
+   "16": "Zither 1",
+   "17": "Zither 2",
+   "24": "Dulcimer"
+  },
+  "16": {
+   "0": "Organ 1",
+   "1": "Organ 101",
+   "8": "Trem. Organ",
+   "9": "Organ.o",
+   "16": "60&apos;s Organ 1",
+   "17": "60&apos;s Organ 2",
+   "18": "60&apos;s Organ 3",
+   "19": "Farf Organ",
+   "24": "Cheese Organ",
+   "25": "D-50 Organ",
+   "26": "JUNO Organ",
+   "27": "Hybrid Organ",
+   "28": "VS Organ",
+   "29": "Digi Church",
+   "32": "70&apos;s E.Organ",
+   "33": "Even Bar",
+   "40": "Organ Bass",
+   "48": "5th Organ"
+  },
+  "17": {
+   "0": "Organ 2",
+   "1": "Jazz Organ",
+   "2": "E.Organ 16+2",
+   "8": "Chorus Or.2",
+   "9": "Octave Organ",
+   "32": "Perc.Organ"
+  },
+  "18": {
+   "0": "Organ 3",
+   "8": "Rotary Org.",
+   "16": "Rotary Org.S",
+   "17": "Rock Organ 1",
+   "18": "Rock Organ 2",
+   "24": "Rotary Org.F"
+  },
+  "19": {
+   "0": "Church Org.1",
+   "8": "Church Org.2",
+   "16": "Church Org.3",
+   "24": "Organ Flute",
+   "32": "Trem.Flute",
+   "33": "Theater Org."
+  },
+  "20": {
+   "0": "Reed Organ",
+   "8": "Wind Organ"
+  },
+  "21": {
+   "0": "Accordion Fr",
+   "8": "Accordion It",
+   "9": "Dist. Accord",
+   "16": "Cho. Accord",
+   "24": "Hard Accord",
+   "25": "Soft Accord"
+  },
+  "22": {
+   "0": "Harmonica",
+   "1": "Harmonica 2"
+  },
+  "23": {
+   "0": "Bandoneon",
+   "8": "Bandoneon 2",
+   "16": "Bandoneon 3"
+  },
+  "24": {
+   "0": "Nylon-str.Gt",
+   "8": "Ukulele",
+   "16": "Nylon Gt.o",
+   "24": "Velo Harmnix",
+   "32": "Nylon Gt 2",
+   "40": "Lequint Gt."
+  },
+  "25": {
+   "0": "Steel-str.Gt",
+   "8": "12-str.Gt",
+   "9": "Nylon+Steel",
+   "16": "Mandolin",
+   "17": "Mandolin 2",
+   "18": "MandolinTrem",
+   "32": "Steel Gt.2"
+  },
+  "26": {
+   "0": "Jazz Gt.",
+   "1": "Mellow Gt.",
+   "8": "Pedal Steel"
+  },
+  "27": {
+   "0": "Clean Gt.",
+   "1": "Clean Half",
+   "2": "Open Hard 1",
+   "3": "Open Hard 2",
+   "4": "JC Clean Gt.",
+   "8": "Chorus Gt.",
+   "9": "JC Chorus Gt",
+   "16": "TC FrontPick",
+   "17": "TC Rear Pick",
+   "18": "TC Clean ff",
+   "19": "TC Clean 2"
+  },
+  "28": {
+   "0": "Muted Gt.",
+   "1": "Muted Dis.Gt",
+   "2": "TC Muted Gt.",
+   "8": "Funk Pop",
+   "16": "Funk Gt.2"
+  },
+  "29": {
+   "0": "OverdriveGt",
+   "1": "Overdrive 2",
+   "2": "Overdrive 3",
+   "3": "More Drive",
+   "8": "LP OverDrvGt",
+   "9": "LP OverDrv"
+  },
+  "30": {
+   "0": "DistortionGt",
+   "1": "Dist. Gt2",
+   "2": "Dazed Guitar",
+   "3": "Distortion",
+   "4": "Dist.Fast",
+   "8": "Feedback Gt.",
+   "9": "Feedback Gt2",
+   "16": "Power Guitar",
+   "17": "Power Gt.2",
+   "18": "5th Dist.",
+   "24": "Rock Rhythm",
+   "25": "Rock Rhythm2"
+  },
+  "31": {
+   "0": "Gt.Harmonics",
+   "8": "Gt. Feedback",
+   "9": "Gt.Feedback2",
+   "16": "Ac.Gt.Harmnx",
+   "24": "E.Bass Harm."
+  },
+  "32": {
+   "0": "Acoustic Bs.",
+   "1": "Rockabilly",
+   "8": "Wild A.Bass",
+   "16": "OHH"
+  },
+  "33": {
+   "0": "Fingered Bs.",
+   "1": "Fingered Bs2",
+   "2": "Jazz Bass",
+   "3": "Jazz Bass 2",
+   "4": "Rock Bass",
+   "8": "ChorusJazzBs",
+   "16": "F.Bass/Harm."
+  },
+  "34": {
+   "0": "Picked Bass",
+   "1": "Picked Bass2",
+   "2": "Picked Bass3",
+   "3": "Picked Bass4",
+   "8": "Muted PickBs",
+   "16": "P.Bass/Harm."
+  },
+  "35": {
+   "0": "Fretless Bs.",
+   "1": "Fretless Bs2",
+   "2": "Fretless Bs3",
+   "3": "Fretless Bs4",
+   "4": "Syn Fretless",
+   "5": "Mr.Smooth",
+   "8": "Wood+FlessBs"
+  },
+  "36": {
+   "0": "Slap Bass 1",
+   "1": "Slap Pop",
+   "8": "Reso Slap",
+   "9": "Unison Slap"
+  },
+  "37": {
+   "0": "Slap Bass 2",
+   "8": "FM Slap"
+  },
+  "38": {
+   "0": "Synth Bass 1",
+   "1": "SynthBass101",
+   "2": "CS Bass",
+   "3": "JP-4 Bass",
+   "4": "JP-8 Bass",
+   "5": "P5 Bass",
+   "6": "JPMG Bass",
+   "8": "Acid Bass",
+   "9": "TB303 Bass",
+   "10": "Tekno Bass",
+   "11": "TB303 Bass 2",
+   "12": "Kicked TB303",
+   "13": "TB303 Saw Bs",
+   "14": "Rubber303 Bs",
+   "15": "Reso 303 Bs",
+   "16": "Reso SH Bass",
+   "17": "303 Sqr Bs",
+   "18": "TB303 DistBs",
+   "24": "Arpeggio Bs"
+  },
+  "39": {
+   "0": "Synth Bass 2",
+   "1": "SynthBass201",
+   "2": "Modular Bass",
+   "3": "Seq Bass",
+   "4": "MG Bass",
+   "5": "Mg Oct Bass 1",
+   "6": "MG Oct Bass2",
+   "7": "MG Blip Bs",
+   "8": "Beef FM Bass",
+   "9": "Dly Bass",
+   "10": "X Wire Bass",
+   "11": "WireStr Bss",
+   "12": "Blip Bass",
+   "13": "RubberBass 1",
+   "16": "RubberBass 2",
+   "17": "SH101 Bass 1",
+   "18": "SH101 Bass 2",
+   "19": "Smooth Bass",
+   "20": "SH101 Bass 3",
+   "21": "Spike Bass",
+   "22": "House Bass",
+   "23": "KG Bass",
+   "24": "Sync Bass",
+   "25": "MG 5th Bass",
+   "26": "RND Bass",
+   "27": "WowMG Bass",
+   "28": "Bubble Bass"
+  },
+  "40": {
+   "0": "Violin",
+   "1": "Violin Atk",
+   "8": "Slow Violin"
+  },
+  "41": {
+   "0": "Viola",
+   "1": "Viola Atk."
+  },
+  "42": {
+   "0": "Cello",
+   "1": "Cello Atk."
+  },
+  "43": {
+   "0": "Contrabass"
+  },
+  "44": {
+   "0": "Tremolo Str",
+   "8": "Slow Tremolo",
+   "9": "Suspense Str"
+  },
+  "45": {
+   "0": "PizzicatoStr",
+   "1": "Vcs&amp;Cbs Pizz",
+   "2": "Chamber Pizz",
+   "3": "St.Pizzicato",
+   "8": "Solo Pizz.",
+   "16": "Solo Spic."
+  },
+  "46": {
+   "0": "Harp",
+   "16": "Synth Harp",
+   "156": ""
+  },
+  "47": {
+   "0": "Timpani"
+  },
+  "48": {
+   "0": "Strings",
+   "1": "Bright Str",
+   "2": "ChamberStr",
+   "3": "Cello sect.",
+   "8": "Orchestra",
+   "9": "Orchestra 2",
+   "10": "Tremolo Orch",
+   "11": "Choir Str.",
+   "12": "Strings+Hor n",
+   "16": "St. Strings",
+   "24": "Velo Strings",
+   "32": "Oct Strings1",
+   "33": "Oct Strings2"
+  },
+  "49": {
+   "0": "SlowStrings",
+   "1": "SlowStrings2",
+   "8": "Legato Str.",
+   "9": "Warm Strings",
+   "10": "St.Slow Str."
+  },
+  "50": {
+   "0": "Syn.Strings1",
+   "1": "OB Strings",
+   "2": "StackStrings",
+   "3": "JP Strings",
+   "8": "Syn.Strings3",
+   "9": "Syn.Strings4",
+   "16": "High Strings",
+   "17": "Hybrid Str.",
+   "24": "Tron Strings",
+   "25": "Noiz Strings"
+  },
+  "51": {
+   "0": "Syn.Strings2",
+   "1": "Syn.Strings5",
+   "2": "JUNO Strings",
+   "8": "Air Strings"
+  },
+  "52": {
+   "0": "Choir Aahs",
+   "8": "St.ChoirAahs",
+   "9": "Melted Choir",
+   "10": "Church Choir",
+   "16": "Choir Hahs",
+   "24": "Chorus Lahs",
+   "32": "Chorus Aahs",
+   "33": "Male Aah+Str"
+  },
+  "53": {
+   "0": "Voice Oohs",
+   "8": "Voice Dahs"
+  },
+  "54": {
+   "0": "SynVox",
+   "8": "Syn.Voice",
+   "9": "Silent Night",
+   "16": "VP330 Choir",
+   "17": "Vinyl Choir"
+  },
+  "55": {
+   "0": "OrchestraHit",
+   "8": "Impact Hit",
+   "9": "Philly Hit",
+   "10": "Double Hit",
+   "11": "Perc.Hit",
+   "12": "Shock Wave",
+   "16": "Lo Fi Rave",
+   "17": "Techno Hit",
+   "18": "Dist.Hit",
+   "19": "Bam Hit",
+   "20": "Bit Hit",
+   "21": "Bim Hit",
+   "22": "Technorg Hit",
+   "23": "Rave Hit",
+   "24": "Strings Hit",
+   "25": "Stack Hit"
+  },
+  "56": {
+   "0": "Trumpet",
+   "1": "Trumpet 2",
+   "2": "Trumpet",
+   "8": "Flugel Horn",
+   "16": "4th Trumpets",
+   "24": "Bright Tp.",
+   "25": "Warm Tp.",
+   "32": "Syn. Trumpet"
+  },
+  "57": {
+   "0": "Trombone",
+   "1": "Trombone 2",
+   "2": "Twin bones",
+   "8": "Bs. Trombone"
+  },
+  "58": {
+   "0": "Tuba",
+   "1": "Tuba 2"
+  },
+  "59": {
+   "0": "MutedTrumpet",
+   "8": "Muted Horns"
+  },
+  "60": {
+   "0": "French Horns",
+   "1": "Fr.Horn 2",
+   "2": "Horn Orche",
+   "3": "Wide FreHrns",
+   "8": "F.Hrn Slow",
+   "9": "Dual Horns",
+   "16": "Synth Horn",
+   "24": "F.Horn Rip"
+  },
+  "61": {
+   "0": "Brass 1",
+   "1": "Brass ff",
+   "2": "Bones Sect.",
+   "8": "Brass 2",
+   "9": "Brass 3",
+   "10": "Brass sfz",
+   "16": "Brass Fall",
+   "17": "Trumpet Fall",
+   "24": "Octave Brass",
+   "25": "Brass Reed"
+  },
+  "62": {
+   "0": "SynthBrass1",
+   "1": "JUNO Brass",
+   "2": "StackBrass",
+   "3": "SH-5 Brass",
+   "4": "MKS Brass",
+   "8": "Pro Brass",
+   "9": "P5 Brass",
+   "16": "Oct SynBrass",
+   "17": "Hybrid Brass"
+  },
+  "63": {
+   "0": "SynthBrass 2",
+   "1": "Soft Brass",
+   "2": "Warm Brass",
+   "8": "SynBrass sfz",
+   "9": "OB Brass",
+   "10": "Reso Brass",
+   "16": "Velo Brass 1",
+   "17": "Transbrass"
+  },
+  "64": {
+   "0": "Soprano Sax",
+   "8": "SopranoExp."
+  },
+  "65": {
+   "0": "Alto Sax",
+   "8": "AltoSax Exp.",
+   "9": "Grow Sax",
+   "16": "AltoSax Tp"
+  },
+  "66": {
+   "0": "Tenor Sax",
+   "1": "Tenor Sax",
+   "8": "BreathyTn.",
+   "9": "St.Tenor Sax"
+  },
+  "67": {
+   "0": "Baritone Sax",
+   "1": "Bari. Sax"
+  },
+  "68": {
+   "0": "Oboe",
+   "8": "Oboe Exp.",
+   "16": "Multi Reed"
+  },
+  "69": {
+   "0": "English Horn"
+  },
+  "70": {
+   "0": "Bassoon"
+  },
+  "71": {
+   "0": "Clarinet",
+   "8": "Bs Clarinet",
+   "16": "Multi Wind"
+  },
+  "72": {
+   "0": "Piccolo",
+   "1": "Piccolo",
+   "8": "Nay",
+   "9": "Nay Tremolo",
+   "16": "Di"
+  },
+  "73": {
+   "0": "Flute",
+   "1": "Flute 2",
+   "2": "Flute Exp.",
+   "3": "Flt Travelso",
+   "8": "Flute Vln",
+   "16": "Tron Flute"
+  },
+  "74": {
+   "0": "Recorder"
+  },
+  "75": {
+   "0": "Pan Flute",
+   "8": "Kawala",
+   "16": "Zampona",
+   "17": "Zampona Atk"
+  },
+  "76": {
+   "0": "Bottle Blow"
+  },
+  "77": {
+   "0": "Shakuhachi",
+   "1": "Shakuhachi"
+  },
+  "78": {
+   "0": "Whistle",
+   "1": "Whistle 2"
+  },
+  "79": {
+   "0": "Ocarina"
+  },
+  "80": {
+   "0": "Square Wave",
+   "1": "MG Square",
+   "2": "Hollow Mini",
+   "3": "Mellow FM",
+   "4": "CC Solo",
+   "5": "Shmoog",
+   "6": "LM Square",
+   "8": "2600 Sine",
+   "9": "Sine Lead",
+   "10": "KG Lead",
+   "16": "P5 Square",
+   "17": "OB Square",
+   "18": "JP-8 Square",
+   "24": "Pulse Lead",
+   "25": "JP8 PulseLd1",
+   "26": "JP8 PulseLd2",
+   "27": "MG Reso. Pls"
+  },
+  "81": {
+   "0": "Saw Wave",
+   "1": "OB2 Saw",
+   "2": "Pulse Saw",
+   "3": "Feline GR",
+   "4": "Big Lead",
+   "5": "Velo Lead",
+   "6": "GR-300",
+   "7": "LA Saw",
+   "8": "Doctor Solo",
+   "9": "Fat Saw Lead",
+   "11": "D-50 Fat Saw",
+   "16": "Waspy Synth",
+   "17": "PM Lead",
+   "18": "CS Saw Lead",
+   "24": "MG Saw 1",
+   "25": "MG Saw 2",
+   "26": "OB Saw 1",
+   "27": "OB Saw 2",
+   "28": "D-50 Saw",
+   "29": "SH-101 Saw",
+   "30": "CS Saw",
+   "31": "MG Saw Lead",
+   "32": "OB Saw Lead",
+   "33": "P5 Saw Lead",
+   "34": "MG unison",
+   "35": "Oct Saw Lead",
+   "40": "SequenceSaw1",
+   "41": "SequenceSaw2",
+   "42": "Reso Saw",
+   "43": "Cheese Saw 1",
+   "44": "Cheese Saw 2",
+   "45": "Rhythmic Saw"
+  },
+  "82": {
+   "0": "Syn.Calliope",
+   "1": "Vent Synth",
+   "2": "Pure PanLead"
+  },
+  "83": {
+   "0": "Chiffer Lead",
+   "1": "TB Lead",
+   "8": "Mad Lead",
+   "158": ""
+  },
+  "84": {
+   "0": "Charang",
+   "8": "Dist.Lead",
+   "9": "Acid Guitar1",
+   "10": "Acid Guitar2",
+   "16": "P5 Sync Lead",
+   "17": "Fat Sync Lead",
+   "18": "Rock Lead",
+   "19": "5th DecaSync",
+   "20": "Dirty Sync",
+   "24": "JUNO Sub Osc"
+  },
+  "85": {
+   "0": "Solo Vox",
+   "8": "Vox Lead",
+   "9": "LFO Vox"
+  },
+  "86": {
+   "0": "5th Saw Wave",
+   "1": "Big Fives",
+   "2": "5th Lead",
+   "3": "5th Ana.Clav",
+   "8": "4th Lead"
+  },
+  "87": {
+   "0": "Bass &amp; Lead",
+   "1": "Big &amp; Raw",
+   "2": "Fat &amp; Perky",
+   "3": "JUNO Rave",
+   "4": "JP8 BsLead 1",
+   "5": "JP8 BsLead 2",
+   "6": "SH-5 Bs.Lead"
+  },
+  "88": {
+   "0": "Fantasia",
+   "1": "Fantasia 2",
+   "2": "New Age Pad",
+   "3": "Bell Heaven"
+  },
+  "89": {
+   "0": "Warm Pad",
+   "1": "Thick Matrix",
+   "2": "Horn Pad",
+   "3": "Rotary Strng",
+   "4": "OB Soft Pad",
+   "8": "Octave Pad",
+   "9": "Stack Pad"
+  },
+  "90": {
+   "0": "Polysynth",
+   "1": "80&apos;s PolySyn",
+   "2": "Polysynth 2",
+   "3": "Poly King",
+   "8": "Power Stack",
+   "9": "Octave Stack",
+   "10": "Reso Stack",
+   "11": "Techno Stack"
+  },
+  "91": {
+   "0": "Space Voice",
+   "1": "Heaven II",
+   "2": "SC Heaven",
+   "8": "Cosmic Voice",
+   "9": "Auh Vox",
+   "10": "AuhAuh",
+   "11": "Vocorderman"
+  },
+  "92": {
+   "0": "Bowed Glass",
+   "1": "SoftBellPad",
+   "2": "JP8 Sqr Pad",
+   "3": "7thBelPad"
+  },
+  "93": {
+   "0": "Metal Pad",
+   "1": "Tine Pad",
+   "2": "Panner Pad"
+  },
+  "94": {
+   "0": "Halo Pad",
+   "1": "Vox Pad",
+   "2": "Vox Sweep",
+   "8": "Horror Pad"
+  },
+  "95": {
+   "0": "Sweep Pad",
+   "1": "Polar Pad",
+   "8": "Converge",
+   "9": "Shwimmer",
+   "10": "Celestial Pd",
+   "11": "Bag Sweep"
+  },
+  "96": {
+   "0": "Ice Rain",
+   "1": "Harmo Rain",
+   "2": "African wood",
+   "3": "Anklung Pad",
+   "4": "Rattle Pad",
+   "8": "Clavi Pad"
+  },
+  "97": {
+   "0": "Soundtrack",
+   "1": "Ancestral",
+   "2": "Prologue",
+   "3": "Prologue 2",
+   "4": "Hols Strings",
+   "8": "Rave"
+  },
+  "98": {
+   "0": "Crystal",
+   "1": "Syn Mallet",
+   "2": "Soft Crystal",
+   "3": "Round Glock",
+   "4": "Loud Glock",
+   "5": "GlockenChime",
+   "6": "Clear Bells",
+   "7": "ChristmasBel",
+   "8": "Vibra Bells",
+   "9": "Digi Bells",
+   "10": "Music Bell",
+   "11": "Analog Bell",
+   "16": "Choral Bells",
+   "17": "Air Bells",
+   "18": "Bell Harp",
+   "19": "Gamelimba",
+   "20": "JUNO Bell"
+  },
+  "99": {
+   "0": "Atmosphere",
+   "1": "Warm Atmos",
+   "2": "Nylon Harp",
+   "3": "Harpvox",
+   "4": "HollowReleas",
+   "5": "Nylon+Rhodes",
+   "6": "Ambient Pad",
+   "7": "Invisible",
+   "8": "Pulsey Key",
+   "9": "Noise Piano"
+  },
+  "100": {
+   "0": "Brightness",
+   "1": "Shining Star",
+   "2": "OB Stab",
+   "8": "Org Bell"
+  },
+  "101": {
+   "0": "Goblin",
+   "1": "Goblinson",
+   "2": "50&apos;s Sci-Fi",
+   "3": "Abduction",
+   "4": "Auhbient",
+   "5": "LFO Pad",
+   "6": "Random Str",
+   "7": "Random Pad",
+   "8": "LowBirds Pad",
+   "9": "Falling Down",
+   "10": "LFO RAVE",
+   "11": "LFO Horror",
+   "12": "LFO Techno",
+   "13": "Alternative",
+   "14": "UFO FX",
+   "15": "Gargle Man",
+   "16": "Sweep FX"
+  },
+  "102": {
+   "0": "Echo Drops",
+   "1": "Echo Bell",
+   "2": "Echo Pan",
+   "3": "Echo Pan 2",
+   "4": "Big Panner",
+   "5": "Reso Panner",
+   "6": "Water Piano",
+   "8": "Pan Sequence",
+   "9": "Aqua"
+  },
+  "103": {
+   "0": "Star Theme",
+   "1": "Star Theme 2",
+   "8": "Dream Pad",
+   "9": "Silky Pad",
+   "16": "New Century",
+   "17": "7th Atmos.",
+   "18": "Galaxy Way"
+  },
+  "104": {
+   "0": "Sitar",
+   "1": "Sitar 2",
+   "2": "Detune Sitar",
+   "3": "Sitar 3",
+   "8": "Tambra",
+   "16": "Tamboura"
+  },
+  "105": {
+   "0": "Banjo",
+   "1": "Muted Banjo",
+   "8": "Rabab",
+   "9": "San Xian",
+   "16": "Gopichant",
+   "24": "Oud",
+   "28": "Oud+Strings",
+   "32": "Pi Pa"
+  },
+  "106": {
+   "0": "Shamisen",
+   "1": "Tsugaru",
+   "8": "Syn Shamisen"
+  },
+  "107": {
+   "0": "Koto",
+   "1": "Gu Zheng",
+   "8": "Taisho Koto",
+   "16": "Kanoon",
+   "19": "Kanoon+Choir",
+   "24": "Oct Harp"
+  },
+  "108": {
+   "0": "Kalimba",
+   "8": "Sanza"
+  },
+  "109": {
+   "0": "Bagpipe",
+   "8": "Didgeridoo"
+  },
+  "110": {
+   "0": "Fiddle",
+   "8": "Er Hu",
+   "9": "Gao Hu"
+  },
+  "111": {
+   "0": "Shanai",
+   "1": "Shanai 2",
+   "8": "Pungi",
+   "16": "Hichiriki",
+   "24": "Mizmar",
+   "32": "Suona 1",
+   "33": "Suona 2"
+  },
+  "112": {
+   "0": "Tinkle Bell",
+   "8": "Bonang",
+   "9": "Gender",
+   "10": "Gamelan Gong",
+   "11": "St.Gamelan",
+   "12": "Jang-Gu",
+   "16": "RAMA Cymbal"
+  },
+  "113": {
+   "0": "Agogo",
+   "8": "Atarigane",
+   "16": "Tambourine"
+  },
+  "114": {
+   "0": "Steel Drums",
+   "1": "Island Mlt"
+  },
+  "115": {
+   "0": "Woodblock",
+   "8": "Castanets",
+   "16": "Angklung",
+   "17": "Angkl Rhythm",
+   "24": "Finger Snaps",
+   "32": "909 HandClap"
+  },
+  "116": {
+   "0": "Taiko",
+   "1": "Small Taiko",
+   "8": "Concert BD",
+   "16": "Jungle BD",
+   "17": "Techno BD",
+   "18": "Bounce"
+  },
+  "117": {
+   "0": "Melo. Tom 1",
+   "1": "Real Tom",
+   "8": "Melo. Tom 2",
+   "9": "Rock Tom",
+   "16": "Rash SD",
+   "17": "House SD",
+   "18": "Jungle SD",
+   "19": "909 SD",
+   "160": ""
+  },
+  "118": {
+   "0": "Synth Drum",
+   "8": "808 Tom",
+   "9": "Elec Perc",
+   "10": "Sine Perc.",
+   "11": "606 Tom",
+   "12": "909 Tom"
+  },
+  "119": {
+   "0": "Reverse Cym.",
+   "1": "Reverse Cym2",
+   "2": "Reverse Cym3",
+   "8": "Rev.Snare 1",
+   "9": "Rev.Snare 2",
+   "16": "Rev.Kick 1",
+   "17": "Rev.ConBD",
+   "24": "Rev.Tom 1",
+   "25": "Rev.Tom 2"
+  },
+  "120": {
+   "0": "Gt.FretNoise",
+   "1": "Gt.Cut Noise",
+   "2": "String Slap",
+   "3": "Gt.CutNoise2",
+   "4": "Dist.CutNoiz",
+   "5": "Bass Slide",
+   "6": "Pick Scrape",
+   "8": "Gt. FX Menu",
+   "9": "Bartok Pizz.",
+   "10": "Guitar Slap",
+   "11": "Chord Stroke",
+   "12": "Biwa Stroke",
+   "13": "Biwa Tremolo"
+  },
+  "121": {
+   "0": "Breath Noise",
+   "1": "Fl.Key Click"
+  },
+  "122": {
+   "0": "Seashore",
+   "1": "Rain",
+   "2": "Thunder",
+   "3": "Wind",
+   "4": "Stream",
+   "5": "Bubble",
+   "6": "Wind 2",
+   "16": "Pink Noise",
+   "17": "White Noise"
+  },
+  "123": {
+   "0": "Bird",
+   "1": "Dog",
+   "2": "Horse-Gallop",
+   "3": "Bird 2",
+   "4": "Kitty",
+   "5": "Growl"
+  },
+  "124": {
+   "0": "Telephone 1",
+   "1": "Telephone 2",
+   "2": "DoorCreaking",
+   "3": "Door",
+   "4": "Scratch",
+   "5": "Wind Chimes",
+   "7": "Scratch 2",
+   "8": "ScratchKey",
+   "9": "TapeRewind",
+   "10": "Phono Noise",
+   "11": "MC-500 Beep"
+  },
+  "125": {
+   "0": "Helicopter",
+   "1": "Car-Engine",
+   "2": "Car-Stop",
+   "3": "Car-Pass",
+   "4": "Car-Crash",
+   "5": "Siren",
+   "6": "Train",
+   "7": "Jetplane",
+   "8": "Starship",
+   "9": "Burst Noise",
+   "10": "Calculating",
+   "11": "Perc. Bang"
+  },
+  "126": {
+   "0": "Applause",
+   "1": "Laughing",
+   "2": "Screaming",
+   "3": "Punch",
+   "4": "Heart Beat",
+   "5": "Footsteps",
+   "6": "Applause 2",
+   "7": "Small Club",
+   "8": "ApplauseWave",
+   "16": "Voice One",
+   "17": "Voice Two",
+   "18": "Voice Three",
+   "19": "Voice Tah",
+   "20": "Voice Whey"
+  },
+  "127": {
+   "0": "Gun Shot",
+   "1": "Machine Gun",
+   "2": "Lasergun",
+   "3": "Explosion",
+   "4": "Eruption",
+   "5": "Big Shot"
+  }
+ },
+ "efx": {
+  "0": {
+   "n": 0,
+   "name": "Thru",
+   "msb": 0,
+   "lsb": 0,
+   "params": []
+  },
+  "1": {
+   "n": 1,
+   "name": "Stereo-EQ",
+   "msb": 1,
+   "lsb": 0,
+   "params": [
+    {
+     "name": "Low Freq",
+     "desc": "200/400",
+     "range": "00/01",
+     "addr": 3
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - +5 - +12",
+     "range": "34-4C",
+     "addr": 4
+    },
+    {
+     "name": "Hi Freq",
+     "desc": "4k/8k",
+     "range": "00/01",
+     "addr": 5
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - +12",
+     "range": "34-4C",
+     "addr": 6
+    },
+    {
+     "name": "M1 Freq",
+     "desc": "200 - 1.6k - 6.3k",
+     "range": "*10",
+     "addr": 7
+    },
+    {
+     "name": "M1 Q",
+     "desc": "0.5/1.0/2.0/4.0/9.0",
+     "range": "00/01/02/03/04",
+     "addr": 8
+    },
+    {
+     "name": "M1 Gain",
+     "desc": "-12 - +8 - +12",
+     "range": "34-4C",
+     "addr": 9
+    },
+    {
+     "name": "M2 Freq",
+     "desc": "200 - 1k - 6.3k",
+     "range": "*10",
+     "addr": 10
+    },
+    {
+     "name": "M2 Q",
+     "desc": "0.5/1.0/2.0/4.0/9.0",
+     "range": "00/01/02/03/04",
+     "addr": 11
+    },
+    {
+     "name": "M2 Gain",
+     "desc": "-12 - -8 - +12",
+     "range": "34-4C",
+     "addr": 12
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "2": {
+   "n": 2,
+   "name": "Spectrum",
+   "msb": 1,
+   "lsb": 1,
+   "params": [
+    {
+     "name": "Band 1",
+     "desc": "-12 - -4 - +12",
+     "range": "34-4C",
+     "addr": 3
+    },
+    {
+     "name": "Band 2",
+     "desc": "-12 - +1 - +12",
+     "range": "34-4C",
+     "addr": 4
+    },
+    {
+     "name": "Band 3",
+     "desc": "-12 - +3 - +12",
+     "range": "34-4C",
+     "addr": 5
+    },
+    {
+     "name": "Band 4",
+     "desc": "-12 - +6 - +12",
+     "range": "34-4C",
+     "addr": 6
+    },
+    {
+     "name": "Band 5",
+     "desc": "-12 - +2 - +12",
+     "range": "34-4C",
+     "addr": 7
+    },
+    {
+     "name": "Band 6",
+     "desc": "-12 - -1 - +12",
+     "range": "34-4C",
+     "addr": 8
+    },
+    {
+     "name": "Band 7",
+     "desc": "-12 - -4 - +12",
+     "range": "34-4C",
+     "addr": 9
+    },
+    {
+     "name": "Band 8",
+     "desc": "-12 - -5 - +12",
+     "range": "34-4C",
+     "addr": 10
+    },
+    {
+     "name": "Width",
+     "desc": "0.5/1.0/2.0/4.0/9.0",
+     "range": "00/01/02/03/04",
+     "addr": 11
+    },
+    {
+     "name": "Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "3": {
+   "n": 3,
+   "name": "Enhancer",
+   "msb": 1,
+   "lsb": 2,
+   "params": [
+    {
+     "name": "Sens",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - +3 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "4": {
+   "n": 4,
+   "name": "Humanizer",
+   "msb": 1,
+   "lsb": 3,
+   "params": [
+    {
+     "name": "Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Drive Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 4
+    },
+    {
+     "name": "Vowel",
+     "desc": "a/i/u/e/o",
+     "range": "00/01/02/03/04",
+     "addr": 5
+    },
+    {
+     "name": "Accel",
+     "desc": "0 - 15",
+     "range": "*14",
+     "addr": 6
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "5": {
+   "n": 5,
+   "name": "Overdrive",
+   "msb": 1,
+   "lsb": 16,
+   "params": [
+    {
+     "name": "Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Amp Type",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 4
+    },
+    {
+     "name": "Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 5
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "6": {
+   "n": 6,
+   "name": "Distortion",
+   "msb": 1,
+   "lsb": 17,
+   "params": [
+    {
+     "name": "Drive",
+     "desc": "0 - 76 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Amp Type",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 4
+    },
+    {
+     "name": "Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 5
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - -8 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 84 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "7": {
+   "n": 7,
+   "name": "Phaser",
+   "msb": 1,
+   "lsb": 32,
+   "params": [
+    {
+     "name": "Manual",
+     "desc": "100 - 620 - 8k",
+     "range": "*12",
+     "addr": 3
+    },
+    {
+     "name": "Rate",
+     "desc": "0.05 - 0.85 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Depth",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Reso",
+     "desc": "0 - 16 - 127",
+     "range": "00-7F",
+     "addr": 6
+    },
+    {
+     "name": "Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 104 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "8": {
+   "n": 8,
+   "name": "Auto Wah",
+   "msb": 1,
+   "lsb": 33,
+   "params": [
+    {
+     "name": "Fil Type",
+     "desc": "LPF/BPF",
+     "range": "00/01",
+     "addr": 3
+    },
+    {
+     "name": "Sens",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Manual",
+     "desc": "0 - 68 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Peak",
+     "desc": "0 - 62 - 127",
+     "range": "00-7F",
+     "addr": 6
+    },
+    {
+     "name": "Rate",
+     "desc": "0.05 - 2.05 - 10.0",
+     "range": "*6",
+     "addr": 7
+    },
+    {
+     "name": "Depth",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "Polarity",
+     "desc": "Down/Up",
+     "range": "00/01",
+     "addr": 9
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "9": {
+   "n": 9,
+   "name": "Rotary",
+   "msb": 1,
+   "lsb": 34,
+   "params": [
+    {
+     "name": "Low Slow",
+     "desc": "0.05 - 0.35 - 10.0",
+     "range": "*6",
+     "addr": 3
+    },
+    {
+     "name": "Low Fast",
+     "desc": "0.05 - 6.40 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Low Accl",
+     "desc": "0 - 3 - 15",
+     "range": "*14",
+     "addr": 5
+    },
+    {
+     "name": "Low Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 6
+    },
+    {
+     "name": "Hi Slow",
+     "desc": "0.05 - 0.90 - 10.0",
+     "range": "*6",
+     "addr": 7
+    },
+    {
+     "name": "Hi Fast",
+     "desc": "0.05 - 7.50 - 10.0",
+     "range": "*6",
+     "addr": 8
+    },
+    {
+     "name": "Hi Accl",
+     "desc": "0 - 11 - 15",
+     "range": "*14",
+     "addr": 9
+    },
+    {
+     "name": "Hi Level",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "Separate",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 11
+    },
+    {
+     "name": "Speed",
+     "desc": "Slow/Fast",
+     "range": "00/7F",
+     "addr": 13
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "10": {
+   "n": 10,
+   "name": "Stereo Flanger",
+   "msb": 1,
+   "lsb": 35,
+   "params": [
+    {
+     "name": "Pre Filter",
+     "desc": "Off/LPF/HPF",
+     "range": "00/01/02",
+     "addr": 3
+    },
+    {
+     "name": "Cutoff",
+     "desc": "250 - 8k",
+     "range": "*9",
+     "addr": 4
+    },
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 1.6m - 100m",
+     "range": "*1",
+     "addr": 5
+    },
+    {
+     "name": "Rate",
+     "desc": "0.05 - 0.60 - 10.0",
+     "range": "*6",
+     "addr": 6
+    },
+    {
+     "name": "Depth",
+     "desc": "0 - 24 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Feedback",
+     "desc": "-98% - +80% - +98%",
+     "range": "0F-71",
+     "addr": 8
+    },
+    {
+     "name": "Phase",
+     "desc": "0 - 180",
+     "range": "00-5A",
+     "addr": 9
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 104 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "11": {
+   "n": 11,
+   "name": "Step Flanger",
+   "msb": 1,
+   "lsb": 36,
+   "params": [
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 1.0m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "Rate",
+     "desc": "0.05 - 0.30 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Depth",
+     "desc": "0 - 95 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Feedback",
+     "desc": "-98% - +30% - +98%",
+     "range": "0F-71",
+     "addr": 6
+    },
+    {
+     "name": "Phase",
+     "desc": "0 - 180",
+     "range": "00-5A",
+     "addr": 7
+    },
+    {
+     "name": "Step Rate",
+     "desc": "0.05 - 2.75 - 10.0",
+     "range": "*6",
+     "addr": 8
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "12": {
+   "n": 12,
+   "name": "Tremolo",
+   "msb": 1,
+   "lsb": 37,
+   "params": [
+    {
+     "name": "Mod Wave",
+     "desc": "Tri/Sqr/Sin/Saw1/Saw2",
+     "range": "00/01/02/03/04",
+     "addr": 3
+    },
+    {
+     "name": "Mod Rate",
+     "desc": "0.05 - 3.05 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Mod Depth",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "13": {
+   "n": 13,
+   "name": "Auto Pan",
+   "msb": 1,
+   "lsb": 38,
+   "params": [
+    {
+     "name": "Mod Wave",
+     "desc": "Tri/Sqr/Sin/Saw1/Saw2",
+     "range": "00/01/02/03/04",
+     "addr": 3
+    },
+    {
+     "name": "Mod Rate",
+     "desc": "0.05 - 3.05 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Mod Depth",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "14": {
+   "n": 14,
+   "name": "Compressor",
+   "msb": 1,
+   "lsb": 48,
+   "params": [
+    {
+     "name": "Attack",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Sustain",
+     "desc": "0 - 100 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Post Gain",
+     "desc": "0/+6/+12/+18",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 104 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "15": {
+   "n": 15,
+   "name": "Limiter",
+   "msb": 1,
+   "lsb": 49,
+   "params": [
+    {
+     "name": "Threshold",
+     "desc": "0 - 85 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Ratio",
+     "desc": "1/1.5,1/2,1/4,1/100",
+     "range": "00/01/02/03",
+     "addr": 4
+    },
+    {
+     "name": "Release",
+     "desc": "0 - 16 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Post Gain",
+     "desc": "0/+6/+12/+18",
+     "range": "00/01/02/03",
+     "addr": 6
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "16": {
+   "n": 16,
+   "name": "Hexa Chorus",
+   "msb": 1,
+   "lsb": 64,
+   "params": [
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 2.4m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Depth",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Pre Dly Dev",
+     "desc": "0 - 5 - 20",
+     "range": "00-14",
+     "addr": 6
+    },
+    {
+     "name": "Depth Dev",
+     "desc": "-20 - +2 - +20",
+     "range": "2C-54",
+     "addr": 7
+    },
+    {
+     "name": "Pan Dev",
+     "desc": "0 - 16 - 20",
+     "range": "00-14",
+     "addr": 8
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 112 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "17": {
+   "n": 17,
+   "name": "Tremolo Chorus",
+   "msb": 1,
+   "lsb": 65,
+   "params": [
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 1.6m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "Cho Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Cho Depth",
+     "desc": "0 - 40 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Trem Phase",
+     "desc": "0 - 80 - 180",
+     "range": "00-5A",
+     "addr": 6
+    },
+    {
+     "name": "Trem Rate",
+     "desc": "0.05 - 3.05 - 10.0",
+     "range": "*6",
+     "addr": 7
+    },
+    {
+     "name": "Trem Sep",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "18": {
+   "n": 18,
+   "name": "Stereo Chorus",
+   "msb": 1,
+   "lsb": 66,
+   "params": [
+    {
+     "name": "Pre Filter",
+     "desc": "Off/LPF/HPF",
+     "range": "00/01/02",
+     "addr": 3
+    },
+    {
+     "name": "Cutoff",
+     "desc": "250 - 8k",
+     "range": "*9",
+     "addr": 4
+    },
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 1.0m - 100m",
+     "range": "*1",
+     "addr": 5
+    },
+    {
+     "name": "Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 6
+    },
+    {
+     "name": "Depth",
+     "desc": "0 - 111 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Phase",
+     "desc": "0 - 180",
+     "range": "00-5A",
+     "addr": 9
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 104 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "19": {
+   "n": 19,
+   "name": "Space D",
+   "msb": 1,
+   "lsb": 67,
+   "params": [
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 3.2m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Depth",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Phase",
+     "desc": "0 - 180",
+     "range": "00-5A",
+     "addr": 6
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "20": {
+   "n": 20,
+   "name": "3D Chorus",
+   "msb": 1,
+   "lsb": 68,
+   "params": [
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 1.0m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "Cho Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Cho Depth",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Out",
+     "desc": "Speaker/Phones",
+     "range": "00/01",
+     "addr": 17
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "21": {
+   "n": 21,
+   "name": "Stereo Delay",
+   "msb": 1,
+   "lsb": 80,
+   "params": [
+    {
+     "name": "Dly Tm L",
+     "desc": "0 - 150m - 500m",
+     "range": "*4",
+     "addr": 3
+    },
+    {
+     "name": "Dly Tm R",
+     "desc": "0 - 300m - 500m",
+     "range": "*4",
+     "addr": 4
+    },
+    {
+     "name": "Feedback",
+     "desc": "-98% - +48% - +98%",
+     "range": "0F-71",
+     "addr": 5
+    },
+    {
+     "name": "Fb Mode",
+     "desc": "Norm/Cross",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "Phase L",
+     "desc": "Norm/Invert",
+     "range": "00/01",
+     "addr": 7
+    },
+    {
+     "name": "Phase R",
+     "desc": "Norm/Invert",
+     "range": "00/01",
+     "addr": 8
+    },
+    {
+     "name": "HF Damp",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "22": {
+   "n": 22,
+   "name": "Mod Delay",
+   "msb": 1,
+   "lsb": 81,
+   "params": [
+    {
+     "name": "Dly Tm L",
+     "desc": "0 - 40m - 500m",
+     "range": "*4",
+     "addr": 3
+    },
+    {
+     "name": "Dly Tm R",
+     "desc": "0 - 220m - 500m",
+     "range": "*4",
+     "addr": 4
+    },
+    {
+     "name": "Feedback",
+     "desc": "-98% - +48% - +98%",
+     "range": "0F-71",
+     "addr": 5
+    },
+    {
+     "name": "Fb Mode",
+     "desc": "Norm/Cross",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "Mod Rate",
+     "desc": "0.05 - 0.65 - 10.0",
+     "range": "*6",
+     "addr": 7
+    },
+    {
+     "name": "Mod Depth",
+     "desc": "0 - 21 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "Mod Phase",
+     "desc": "0 - 180",
+     "range": "00-5A",
+     "addr": 9
+    },
+    {
+     "name": "HF Damp",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D>61E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "23": {
+   "n": 23,
+   "name": "3 Tap Delay",
+   "msb": 1,
+   "lsb": 82,
+   "params": [
+    {
+     "name": "Dly Tm C",
+     "desc": "200m - 300m - 990m/1sec",
+     "range": "*2",
+     "addr": 3
+    },
+    {
+     "name": "Dly Tm L",
+     "desc": "200m - 200m - 990m/1sec",
+     "range": "*2",
+     "addr": 4
+    },
+    {
+     "name": "Dly Tm R",
+     "desc": "200m - 235m - 990m/1sec",
+     "range": "*2",
+     "addr": 5
+    },
+    {
+     "name": "Feedback",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 6
+    },
+    {
+     "name": "Dly Lev C",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Dly Lev L",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "Dly Lev R",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 9
+    },
+    {
+     "name": "HF Damp",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "24": {
+   "n": 24,
+   "name": "4 Tap Delay",
+   "msb": 1,
+   "lsb": 83,
+   "params": [
+    {
+     "name": "Dly Tm 1",
+     "desc": "200m - 500m - 990m/1sec",
+     "range": "*2",
+     "addr": 3
+    },
+    {
+     "name": "Dly Tm 2",
+     "desc": "200m - 300m - 990m/1sec",
+     "range": "*2",
+     "addr": 4
+    },
+    {
+     "name": "Dly Tm 3",
+     "desc": "200m - 400m - 990m/1sec",
+     "range": "*2",
+     "addr": 5
+    },
+    {
+     "name": "Dly Tm 4",
+     "desc": "200m - 200m - 990m/1sec",
+     "range": "*2",
+     "addr": 6
+    },
+    {
+     "name": "Dly Lev 1",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Dly Lev 2",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "Dly Lev 3",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 9
+    },
+    {
+     "name": "Dly Lev 4",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "Feedback",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 11
+    },
+    {
+     "name": "HF Damp",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 12
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "25": {
+   "n": 25,
+   "name": "Tm Ctrl Delay",
+   "msb": 1,
+   "lsb": 84,
+   "params": [
+    {
+     "name": "Dly Time",
+     "desc": "200m - 500m - 990m/1sec",
+     "range": "*3",
+     "addr": 3
+    },
+    {
+     "name": "Accel",
+     "desc": "0 - 10 - 15",
+     "range": "*14",
+     "addr": 4
+    },
+    {
+     "name": "Feedback",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 5
+    },
+    {
+     "name": "HF Damp",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 6
+    },
+    {
+     "name": "EFX Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "26": {
+   "n": 26,
+   "name": "Reverb",
+   "msb": 1,
+   "lsb": 85,
+   "params": [
+    {
+     "name": "Type",
+     "desc": "Room1/2/Stage1/2/Hall1/2",
+     "range": "00/01/02/03/04/05",
+     "addr": 3
+    },
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 74m - 100m",
+     "range": "*1",
+     "addr": 4
+    },
+    {
+     "name": "Time",
+     "desc": "0 - 120 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "HF Damp",
+     "desc": "315 - 6.3k - 8k/Bypass",
+     "range": "*8",
+     "addr": 6
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "27": {
+   "n": 27,
+   "name": "Gate Reverb",
+   "msb": 1,
+   "lsb": 86,
+   "params": [
+    {
+     "name": "Type",
+     "desc": "Norm/Reverse/Sweep1/2",
+     "range": "00/01/02/03",
+     "addr": 3
+    },
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 0.5m - 100m",
+     "range": "*1",
+     "addr": 4
+    },
+    {
+     "name": "Gate Time",
+     "desc": "0 - 65m - 500m",
+     "range": "00-63",
+     "addr": 5
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D>65E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - -3 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 112 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "28": {
+   "n": 28,
+   "name": "3D Delay",
+   "msb": 1,
+   "lsb": 87,
+   "params": [
+    {
+     "name": "Dly Tm C",
+     "desc": "0m - 300m - 500m",
+     "range": "*4",
+     "addr": 3
+    },
+    {
+     "name": "Dly Tm L",
+     "desc": "0m - 200m - 500m",
+     "range": "*4",
+     "addr": 4
+    },
+    {
+     "name": "Dly Tm R",
+     "desc": "0m - 240m - 500m",
+     "range": "*4",
+     "addr": 5
+    },
+    {
+     "name": "Feedback",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 6
+    },
+    {
+     "name": "Dly Lev C",
+     "desc": "0 - 40 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Dly Lev L",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "Dly Lev R",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 9
+    },
+    {
+     "name": "HF Damp",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Out",
+     "desc": "Speaker/Phones",
+     "range": "00/01",
+     "addr": 17
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "29": {
+   "n": 29,
+   "name": "2 Pitch Shifter",
+   "msb": 1,
+   "lsb": 96,
+   "params": [
+    {
+     "name": "Coarse 1",
+     "desc": "-24 - +7 - +12",
+     "range": "28-4C",
+     "addr": 3
+    },
+    {
+     "name": "Fine 1",
+     "desc": "-100 - -4 - +100",
+     "range": "0E-72",
+     "addr": 4
+    },
+    {
+     "name": "Pre Dly 1",
+     "desc": "0 - 100m",
+     "range": "*1",
+     "addr": 5
+    },
+    {
+     "name": "EFX Pan 1",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 6
+    },
+    {
+     "name": "Coarse 2",
+     "desc": "-24 - -5 - +12",
+     "range": "28-4C",
+     "addr": 7
+    },
+    {
+     "name": "Fine 2",
+     "desc": "-100 - +4 - +100",
+     "range": "0E-72",
+     "addr": 8
+    },
+    {
+     "name": "Pre Dly 2",
+     "desc": "0 - 100m",
+     "range": "*1",
+     "addr": 9
+    },
+    {
+     "name": "EFX Pan 2",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "Shift Mode",
+     "desc": "1-3-5",
+     "range": "00-04",
+     "addr": 11
+    },
+    {
+     "name": "L.Bal",
+     "desc": "A> 0B - A=B - A 0<B",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 95 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "30": {
+   "n": 30,
+   "name": "Fb P.Shifter",
+   "msb": 1,
+   "lsb": 97,
+   "params": [
+    {
+     "name": "P.Coarse",
+     "desc": "-24 - +7 - +12",
+     "range": "28-4C",
+     "addr": 3
+    },
+    {
+     "name": "P.Fine",
+     "desc": "-100 - 0 - +100",
+     "range": "0E-72",
+     "addr": 4
+    },
+    {
+     "name": "Feedback",
+     "desc": "-98% - +40% - +98%",
+     "range": "0F-71",
+     "addr": 5
+    },
+    {
+     "name": "Pre Dly",
+     "desc": "0 - 45m - 100m",
+     "range": "*1",
+     "addr": 6
+    },
+    {
+     "name": "Mode",
+     "desc": "1-3-5",
+     "range": "00-04",
+     "addr": 7
+    },
+    {
+     "name": "EFX Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - -6 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "31": {
+   "n": 31,
+   "name": "3D Auto",
+   "msb": 1,
+   "lsb": 112,
+   "params": [
+    {
+     "name": "Azimuth",
+     "desc": "180/L168 - 0 - R168",
+     "range": "*13",
+     "addr": 3
+    },
+    {
+     "name": "Speed",
+     "desc": "0.05 - 1.30 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Clockwise",
+     "desc": "-/+",
+     "range": "00/01",
+     "addr": 5
+    },
+    {
+     "name": "Turn",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "Out",
+     "desc": "Speaker/Phones",
+     "range": "00/01",
+     "addr": 17
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "32": {
+   "n": 32,
+   "name": "3D Manual",
+   "msb": 1,
+   "lsb": 113,
+   "params": [
+    {
+     "name": "Azimuth",
+     "desc": "180/L168 - 0 - R168",
+     "range": "*13",
+     "addr": 3
+    },
+    {
+     "name": "Out",
+     "desc": "Speaker/Phones",
+     "range": "00/01",
+     "addr": 17
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "33": {
+   "n": 33,
+   "name": "Lo-Fi 1",
+   "msb": 1,
+   "lsb": 114,
+   "params": [
+    {
+     "name": "Pre Filter",
+     "desc": "1-2-6",
+     "range": "00-05",
+     "addr": 3
+    },
+    {
+     "name": "Lo-Fi Type",
+     "desc": "1-6-9",
+     "range": "00-08",
+     "addr": 4
+    },
+    {
+     "name": "Post Filter",
+     "desc": "1-2-6",
+     "range": "00-05",
+     "addr": 5
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "34": {
+   "n": 34,
+   "name": "Lo-Fi 2",
+   "msb": 1,
+   "lsb": 115,
+   "params": [
+    {
+     "name": "Lo-Fi Type",
+     "desc": "1-2-6",
+     "range": "00-05",
+     "addr": 3
+    },
+    {
+     "name": "Fil Type",
+     "desc": "Off/LPF/HPF",
+     "range": "00/01/02",
+     "addr": 4
+    },
+    {
+     "name": "Cutoff",
+     "desc": "250 - 630 - 8k",
+     "range": "*9",
+     "addr": 5
+    },
+    {
+     "name": "R.Detune",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 6
+    },
+    {
+     "name": "R.Nz Lev",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "W/P Sel",
+     "desc": "White/Pink",
+     "range": "00/01",
+     "addr": 8
+    },
+    {
+     "name": "W/P LPF",
+     "desc": "250 - 6.3k/Bypass",
+     "range": "*11",
+     "addr": 9
+    },
+    {
+     "name": "W/P Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "Disc Type",
+     "desc": "LP/EP/SP/RND",
+     "range": "00/01/02/03",
+     "addr": 11
+    },
+    {
+     "name": "Disc LPF",
+     "desc": "250 - 6.3k/Bypass",
+     "range": "*11",
+     "addr": 12
+    },
+    {
+     "name": "Disc Nz Lev",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 13
+    },
+    {
+     "name": "Hum Type",
+     "desc": "50Hz/60Hz",
+     "range": "00/01",
+     "addr": 14
+    },
+    {
+     "name": "Hum LPF",
+     "desc": "250 - 6.3k/Bypass",
+     "range": "*11",
+     "addr": 15
+    },
+    {
+     "name": "Hum Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 16
+    },
+    {
+     "name": "M/S",
+     "desc": "Mono/Stereo",
+     "range": "00-01",
+     "addr": 17
+    },
+    {
+     "name": "Balance",
+     "desc": "D> 0E - D 0<E",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Pan(Mono)",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "35": {
+   "n": 35,
+   "name": "OD \u2192 Chorus",
+   "msb": 2,
+   "lsb": 0,
+   "params": [
+    {
+     "name": "OD Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "OD Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "Cho Dly",
+     "desc": "0 - 1.0m - 100m",
+     "range": "*1",
+     "addr": 8
+    },
+    {
+     "name": "Cho Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "Cho Depth",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "Cho Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "36": {
+   "n": 36,
+   "name": "OD \u2192 Flanger",
+   "msb": 2,
+   "lsb": 1,
+   "params": [
+    {
+     "name": "OD Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "OD Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "FL Dly",
+     "desc": "0 - 1.6m - 100m",
+     "range": "*1",
+     "addr": 8
+    },
+    {
+     "name": "FL Rate",
+     "desc": "0.05 - 0.60 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "FL Depth",
+     "desc": "0 - 40 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "FL Fb",
+     "desc": "-98% - +80% - +98%",
+     "range": "0F-71",
+     "addr": 11
+    },
+    {
+     "name": "FL Bal",
+     "desc": "D> 0E - D>49E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "37": {
+   "n": 37,
+   "name": "OD \u2192 Delay",
+   "msb": 2,
+   "lsb": 2,
+   "params": [
+    {
+     "name": "OD Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "OD Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0 - 250m - 500m",
+     "range": "*4",
+     "addr": 8
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 9
+    },
+    {
+     "name": "Dly HF",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Dly Bal",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "38": {
+   "n": 38,
+   "name": "DS \u2192 Chorus",
+   "msb": 2,
+   "lsb": 3,
+   "params": [
+    {
+     "name": "DS Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "DS Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "DS Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "DS Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "Cho Dly",
+     "desc": "0 - 1.0m - 100m",
+     "range": "*1",
+     "addr": 8
+    },
+    {
+     "name": "Cho Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "Cho Depth",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "Cho Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "39": {
+   "n": 39,
+   "name": "DS \u2192 Flanger",
+   "msb": 2,
+   "lsb": 4,
+   "params": [
+    {
+     "name": "DS Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "DS Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "DS Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "DS Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "FL Dly",
+     "desc": "0 - 1.1m - 100m",
+     "range": "*1",
+     "addr": 8
+    },
+    {
+     "name": "FL Rate",
+     "desc": "0.05 - 0.60 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "FL Depth",
+     "desc": "0 - 24 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "FL Fb",
+     "desc": "-98% - +80% - +98%",
+     "range": "0F-71",
+     "addr": 11
+    },
+    {
+     "name": "FL Bal",
+     "desc": "D> 0E - D>49E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "40": {
+   "n": 40,
+   "name": "DS \u2192 Delay",
+   "msb": 2,
+   "lsb": 5,
+   "params": [
+    {
+     "name": "DS Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "DS Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "DS Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "DS Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0 - 250m - 500m",
+     "range": "*4",
+     "addr": 8
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 9
+    },
+    {
+     "name": "Dly HF",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Dly Bal",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "41": {
+   "n": 41,
+   "name": "EH \u2192 Chorus",
+   "msb": 2,
+   "lsb": 6,
+   "params": [
+    {
+     "name": "EH Sens",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "EH Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Cho Dly",
+     "desc": "0 - 14m - 100m",
+     "range": "*1",
+     "addr": 8
+    },
+    {
+     "name": "Cho Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "Cho Depth",
+     "desc": "0 - 101 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "Cho Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "42": {
+   "n": 42,
+   "name": "EH \u2192 Flanger",
+   "msb": 2,
+   "lsb": 7,
+   "params": [
+    {
+     "name": "EH Sens",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "EH Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "FL Dly",
+     "desc": "0 - 1.6m - 100m",
+     "range": "*1",
+     "addr": 8
+    },
+    {
+     "name": "FL Rate",
+     "desc": "0.05 - 0.60 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "FL Depth",
+     "desc": "0 - 24 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "FL Fb",
+     "desc": "-98% - +80% - +98%",
+     "range": "0F-71",
+     "addr": 11
+    },
+    {
+     "name": "FL Bal",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "43": {
+   "n": 43,
+   "name": "EH \u2192 Delay",
+   "msb": 2,
+   "lsb": 8,
+   "params": [
+    {
+     "name": "EH Sens",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "EH Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0 - 250m - 500m",
+     "range": "*4",
+     "addr": 8
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 9
+    },
+    {
+     "name": "Dly HF",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Dly Bal",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 88 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "44": {
+   "n": 44,
+   "name": "Cho \u2192 Delay",
+   "msb": 2,
+   "lsb": 9,
+   "params": [
+    {
+     "name": "Cho Dly",
+     "desc": "0 - 1.0m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "Cho Rate",
+     "desc": "0.05 - 0.50 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Cho Depth",
+     "desc": "0 - 120 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Cho Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0 - 250m - 500m",
+     "range": "*4",
+     "addr": 8
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 9
+    },
+    {
+     "name": "Dly HF",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Dly Bal",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "45": {
+   "n": 45,
+   "name": "FL \u2192 Delay",
+   "msb": 2,
+   "lsb": 10,
+   "params": [
+    {
+     "name": "FL Dly",
+     "desc": "0 - 1.6m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "FL Rate",
+     "desc": "0.05 - 0.60 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "FL Depth",
+     "desc": "0 - 24 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "FL Fb",
+     "desc": "-98% - +80% - +98%",
+     "range": "0F-71",
+     "addr": 6
+    },
+    {
+     "name": "FL Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0 - 250m - 500m",
+     "range": "*4",
+     "addr": 8
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 9
+    },
+    {
+     "name": "Dly HF",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Dly Bal",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "46": {
+   "n": 46,
+   "name": "Cho\u2192 Flanger",
+   "msb": 2,
+   "lsb": 11,
+   "params": [
+    {
+     "name": "Cho Dly",
+     "desc": "0 - 1.0m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "Cho Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Cho Depth",
+     "desc": "0 - 120 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Cho Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "FL Dly",
+     "desc": "0 - 1.6m - 100m",
+     "range": "*1",
+     "addr": 8
+    },
+    {
+     "name": "FL Rate",
+     "desc": "0.05 - 0.60 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "FL Depth",
+     "desc": "0 - 24 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "FL Fb",
+     "desc": "-98% - +80% - +98%",
+     "range": "0F-71",
+     "addr": 11
+    },
+    {
+     "name": "FL Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Low Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 19
+    },
+    {
+     "name": "Hi Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 112 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "47": {
+   "n": 47,
+   "name": "Rotary Multi",
+   "msb": 2,
+   "lsb": 12,
+   "params": [
+    {
+     "name": "OD Drive",
+     "desc": "0 - 13 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "OD Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 4
+    },
+    {
+     "name": "EQ L Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 5
+    },
+    {
+     "name": "EQ M Fq",
+     "desc": "200 - 1.6k - 6.3k",
+     "range": "*10",
+     "addr": 6
+    },
+    {
+     "name": "EQ M Q",
+     "desc": "0.5/1.0/2.0/4.0/9.0",
+     "range": "00/01/02/03/04",
+     "addr": 7
+    },
+    {
+     "name": "EQ M Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 8
+    },
+    {
+     "name": "EQ H Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 9
+    },
+    {
+     "name": "RT L Slow",
+     "desc": "0.05 - 0.35 - 10.0",
+     "range": "*6",
+     "addr": 10
+    },
+    {
+     "name": "RT L Fast",
+     "desc": "0.05 - 6.40 - 10.0",
+     "range": "*6",
+     "addr": 11
+    },
+    {
+     "name": "RT Lo Accl",
+     "desc": "0 - 3 - 15",
+     "range": "*14",
+     "addr": 12
+    },
+    {
+     "name": "RT Lo Lev",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 13
+    },
+    {
+     "name": "RT H Slow",
+     "desc": "0.05 - 0.90 - 10.0",
+     "range": "*6",
+     "addr": 14
+    },
+    {
+     "name": "RT H Fast",
+     "desc": "0.05 - 7.50 - 10.0",
+     "range": "*6",
+     "addr": 15
+    },
+    {
+     "name": "RT Hi Accl",
+     "desc": "0 - 11 - 15",
+     "range": "*14",
+     "addr": 16
+    },
+    {
+     "name": "RT Hi Lev",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 17
+    },
+    {
+     "name": "RT Sept",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "RT Speed",
+     "desc": "Slow/Fast",
+     "range": "00/7F",
+     "addr": 19
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "48": {
+   "n": 48,
+   "name": "GTR Multi 1",
+   "msb": 4,
+   "lsb": 0,
+   "params": [
+    {
+     "name": "Cmp Atck",
+     "desc": "0 - 100 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Cmp Sus",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Cmp Level",
+     "desc": "0 - 100 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Cmp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "OD Sel",
+     "desc": "Odrv/Dist",
+     "range": "00/01",
+     "addr": 7
+    },
+    {
+     "name": "OD Drive",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 9
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 10
+    },
+    {
+     "name": "OD L Gain",
+     "desc": "-12 - +5 - +12",
+     "range": "34-4C",
+     "addr": 11
+    },
+    {
+     "name": "OD H Gain",
+     "desc": "-12 - +10 - +12",
+     "range": "34-4C",
+     "addr": 12
+    },
+    {
+     "name": "OD Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 13
+    },
+    {
+     "name": "CF Sel",
+     "desc": "Chorus/Flangr",
+     "range": "00/01",
+     "addr": 14
+    },
+    {
+     "name": "CF Rate",
+     "desc": "0.05 - 0.45 - 6.40",
+     "range": "*7",
+     "addr": 15
+    },
+    {
+     "name": "CF Depth",
+     "desc": "0 - 30 - 127",
+     "range": "00-7F",
+     "addr": 16
+    },
+    {
+     "name": "CF Fb",
+     "desc": "-98% - +76% - +98%",
+     "range": "0F-71",
+     "addr": 17
+    },
+    {
+     "name": "CF Mix",
+     "desc": "0 - 40 - 127",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0m - 300m - 635m",
+     "range": "*5",
+     "addr": 19
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "0 - 34 - 127",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "Dly Mix",
+     "desc": "0 - 15 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 110 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "49": {
+   "n": 49,
+   "name": "GTR Multi 2",
+   "msb": 4,
+   "lsb": 1,
+   "params": [
+    {
+     "name": "Cmp Atck",
+     "desc": "0 - 70 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Cmp Sus",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Cmp Level",
+     "desc": "0 - 90 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Cmp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "OD Sel",
+     "desc": "Odrv/Dist",
+     "range": "00/01",
+     "addr": 7
+    },
+    {
+     "name": "OD Drive",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 9
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 10
+    },
+    {
+     "name": "OD Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 11
+    },
+    {
+     "name": "EQ L Gain",
+     "desc": "-12 - +12",
+     "range": "34-4C",
+     "addr": 12
+    },
+    {
+     "name": "EQ M Fq",
+     "desc": "200 - 1k - 6.3k",
+     "range": "*10",
+     "addr": 13
+    },
+    {
+     "name": "EQ M Q",
+     "desc": "0.5/1.0/2.0/4.0/9.0",
+     "range": "00/01/02/03/04",
+     "addr": 14
+    },
+    {
+     "name": "EQ M Gain",
+     "desc": "-12 - +5 - +12",
+     "range": "34-4C",
+     "addr": 15
+    },
+    {
+     "name": "EQ H Gain",
+     "desc": "-12 - -10 - +12",
+     "range": "34-4C",
+     "addr": 16
+    },
+    {
+     "name": "CF Sel",
+     "desc": "Chorus/Flangr",
+     "range": "00/01",
+     "addr": 17
+    },
+    {
+     "name": "CF Rate",
+     "desc": "0.05 - 0.45 - 6.40",
+     "range": "*7",
+     "addr": 18
+    },
+    {
+     "name": "CF Depth",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "CF Fb",
+     "desc": "-98% - +76% - +98%",
+     "range": "0F-71",
+     "addr": 20
+    },
+    {
+     "name": "CF Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "50": {
+   "n": 50,
+   "name": "GTR Multi 3",
+   "msb": 4,
+   "lsb": 2,
+   "params": [
+    {
+     "name": "Wah Fil",
+     "desc": "LPF/BPF",
+     "range": "00/01",
+     "addr": 3
+    },
+    {
+     "name": "Wah Man",
+     "desc": "0 - 60 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Wah Peak",
+     "desc": "0 - 10 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Wah Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "OD Sel",
+     "desc": "Odrv/Dist",
+     "range": "00/01",
+     "addr": 7
+    },
+    {
+     "name": "OD Drive",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 9
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 10
+    },
+    {
+     "name": "OD L Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 11
+    },
+    {
+     "name": "OD H Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 12
+    },
+    {
+     "name": "OD Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 13
+    },
+    {
+     "name": "CF Sel",
+     "desc": "Chorus/Flangr",
+     "range": "00/01",
+     "addr": 14
+    },
+    {
+     "name": "CF Rate",
+     "desc": "0.05 - 0.45 - 6.40",
+     "range": "*7",
+     "addr": 15
+    },
+    {
+     "name": "CF Depth",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 16
+    },
+    {
+     "name": "CF Fb",
+     "desc": "-98% - +50% - +98%",
+     "range": "0F-71",
+     "addr": 17
+    },
+    {
+     "name": "CF Mix",
+     "desc": "0 - 50 - 127",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0m - 160m - 635m",
+     "range": "*5",
+     "addr": 19
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "Dly Mix",
+     "desc": "0 - 30 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 88 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "51": {
+   "n": 51,
+   "name": "Clean Gt Multi1",
+   "msb": 4,
+   "lsb": 3,
+   "params": [
+    {
+     "name": "Cmp Atck",
+     "desc": "0 - 50 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Cmp Sus",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Cmp Level",
+     "desc": "0 - 75 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Cmp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "EQ L Gain",
+     "desc": "-12 - +12",
+     "range": "34-4C",
+     "addr": 7
+    },
+    {
+     "name": "EQ M Fq",
+     "desc": "200 - 6.3k",
+     "range": "*10",
+     "addr": 8
+    },
+    {
+     "name": "EQ M Q",
+     "desc": "0.5/1.0/2.0/4.0/9.0",
+     "range": "00/01/02/03/04",
+     "addr": 9
+    },
+    {
+     "name": "EQ M Gain",
+     "desc": "-12 - +5 - +12",
+     "range": "34-4C",
+     "addr": 10
+    },
+    {
+     "name": "EQ H Gain",
+     "desc": "-12 - +12",
+     "range": "34-4C",
+     "addr": 11
+    },
+    {
+     "name": "CF Sel",
+     "desc": "Chorus/Flangr",
+     "range": "00/01",
+     "addr": 12
+    },
+    {
+     "name": "CF Rate",
+     "desc": "0.05 - 0.45 - 6.40",
+     "range": "*7",
+     "addr": 13
+    },
+    {
+     "name": "CF Depth",
+     "desc": "0 - 40 - 127",
+     "range": "00-7F",
+     "addr": 14
+    },
+    {
+     "name": "CF Fb",
+     "desc": "-98% - +30% - +98%",
+     "range": "0F-71",
+     "addr": 15
+    },
+    {
+     "name": "CF Mix",
+     "desc": "0 - 100 - 127",
+     "range": "00-7F",
+     "addr": 16
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0m - 120m - 635m",
+     "range": "*5",
+     "addr": 17
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "0 - 40 - 127",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Dly HF",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 19
+    },
+    {
+     "name": "Dly Mix",
+     "desc": "0 - 30 - 127",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 95 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "52": {
+   "n": 52,
+   "name": "Clean Gt Multi2",
+   "msb": 4,
+   "lsb": 4,
+   "params": [
+    {
+     "name": "AW Filter",
+     "desc": "LPF/BPF",
+     "range": "00/01",
+     "addr": 3
+    },
+    {
+     "name": "AW Man",
+     "desc": "0 - 55 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "AW Peak",
+     "desc": "0 - 40 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "AW Rate",
+     "desc": "0.05 - 1.50 - 6.40",
+     "range": "*7",
+     "addr": 6
+    },
+    {
+     "name": "AW Depth",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "AW Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 8
+    },
+    {
+     "name": "EQ L Gain",
+     "desc": "-12 - +12",
+     "range": "34-4C",
+     "addr": 9
+    },
+    {
+     "name": "EQ M Fq",
+     "desc": "200 - 1.6k - 6.3k",
+     "range": "*10",
+     "addr": 10
+    },
+    {
+     "name": "EQ M Q",
+     "desc": "0.5/1.0/2.0/4.0/9.0",
+     "range": "00/01/02/03/04",
+     "addr": 11
+    },
+    {
+     "name": "EQ M Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 12
+    },
+    {
+     "name": "EQ H Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 13
+    },
+    {
+     "name": "CF Sel",
+     "desc": "Chorus/Flangr",
+     "range": "00/01",
+     "addr": 14
+    },
+    {
+     "name": "CF Rate",
+     "desc": "0.05 - 0.45 - 6.40",
+     "range": "*7",
+     "addr": 15
+    },
+    {
+     "name": "CF Depth",
+     "desc": "0 - 20 - 127",
+     "range": "00-7F",
+     "addr": 16
+    },
+    {
+     "name": "CF Fb",
+     "desc": "-98% - +76% - +98%",
+     "range": "0F-71",
+     "addr": 17
+    },
+    {
+     "name": "CF Mix",
+     "desc": "0 - 100 - 127",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0m - 30m - 635m",
+     "range": "*5",
+     "addr": 19
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "0 - 15 - 127",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "Dly Mix",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 76 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "53": {
+   "n": 53,
+   "name": "Bass Multi",
+   "msb": 4,
+   "lsb": 5,
+   "params": [
+    {
+     "name": "Cmp Atck",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "Cmp Sus",
+     "desc": "0 - 100 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "Cmp Level",
+     "desc": "0 - 75 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Cmp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "OD Sel",
+     "desc": "Odrv/Dist",
+     "range": "00/01",
+     "addr": 7
+    },
+    {
+     "name": "OD Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Small/BltIn/2-Stk",
+     "range": "00/01/02",
+     "addr": 9
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 10
+    },
+    {
+     "name": "OD Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 11
+    },
+    {
+     "name": "EQ L Gain",
+     "desc": "-12 - +2 - +12",
+     "range": "34-4C",
+     "addr": 12
+    },
+    {
+     "name": "EQ M Fq",
+     "desc": "200 - 1.6k - 6.3k",
+     "range": "*10",
+     "addr": 13
+    },
+    {
+     "name": "EQ M Q",
+     "desc": "0.5/1.0/2.0/4.0/9.0",
+     "range": "00/01/02/03/04",
+     "addr": 14
+    },
+    {
+     "name": "EQ M Gain",
+     "desc": "-12 - +4 - +12",
+     "range": "34-4C",
+     "addr": 15
+    },
+    {
+     "name": "EQ H Gain",
+     "desc": "-12 - 0 - +12",
+     "range": "34-4C",
+     "addr": 16
+    },
+    {
+     "name": "CF Sel",
+     "desc": "Chorus/Flangr",
+     "range": "00/01",
+     "addr": 17
+    },
+    {
+     "name": "CF Rate",
+     "desc": "0.05 - 0.30 - 6.40",
+     "range": "*7",
+     "addr": 18
+    },
+    {
+     "name": "CF Depth",
+     "desc": "0 - 20 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "CF Fb",
+     "desc": "-98% - +76% - +98%",
+     "range": "0F-71",
+     "addr": 20
+    },
+    {
+     "name": "CF Mix",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 76 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "54": {
+   "n": 54,
+   "name": "Rhodes Multi",
+   "msb": 4,
+   "lsb": 6,
+   "params": [
+    {
+     "name": "EH Sens",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "EH Mix",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "PH Man",
+     "desc": "100 - 620 - 8k",
+     "range": "*12",
+     "addr": 5
+    },
+    {
+     "name": "PH Rate",
+     "desc": "0.05 - 0.85 - 6.40",
+     "range": "*7",
+     "addr": 6
+    },
+    {
+     "name": "PH Depth",
+     "desc": "0 - 32 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "PH Reso",
+     "desc": "0 - 16 - 127",
+     "range": "00-7F",
+     "addr": 8
+    },
+    {
+     "name": "PH Mix",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 9
+    },
+    {
+     "name": "CF Sel",
+     "desc": "Chorus/Flangr",
+     "range": "00/01",
+     "addr": 10
+    },
+    {
+     "name": "CF LPF",
+     "desc": "250 - 6.3k/Bypass",
+     "range": "*11",
+     "addr": 11
+    },
+    {
+     "name": "CF Dly",
+     "desc": "0 - 1.0m - 100m",
+     "range": "*1",
+     "addr": 12
+    },
+    {
+     "name": "CF Rate",
+     "desc": "0.05 - 0.45 - 6.40",
+     "range": "*7",
+     "addr": 13
+    },
+    {
+     "name": "CF Depth",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 14
+    },
+    {
+     "name": "CF Fb",
+     "desc": "-98% - +80% - +98%",
+     "range": "0F-71",
+     "addr": 15
+    },
+    {
+     "name": "CF Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 16
+    },
+    {
+     "name": "TP Sel",
+     "desc": "Trem/Pan",
+     "range": "00/01",
+     "addr": 17
+    },
+    {
+     "name": "TP Mod WV",
+     "desc": "Tri/Sqr/Sin/Saw1/Saw2",
+     "range": "00/01/02/03/04",
+     "addr": 18
+    },
+    {
+     "name": "TP Mod RT",
+     "desc": "0.05 - 3.05 - 6.40",
+     "range": "*7",
+     "addr": 19
+    },
+    {
+     "name": "TP Mod Dep",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "TP Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "55": {
+   "n": 55,
+   "name": "Keyboard Multi",
+   "msb": 5,
+   "lsb": 0,
+   "params": [
+    {
+     "name": "RM Mod Freq 0 - 50 - 127",
+     "desc": "",
+     "range": "00-7F",
+     "addr": 3
+    },
+    {
+     "name": "RM Bal",
+     "desc": "D> 0E - D>30E - D 0<E",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "EQ L Gain",
+     "desc": "-12 - +3 - +12",
+     "range": "34-4C",
+     "addr": 5
+    },
+    {
+     "name": "EQ M Fq",
+     "desc": "200 - 6.3k",
+     "range": "*10",
+     "addr": 6
+    },
+    {
+     "name": "EQ M Q",
+     "desc": "0.5/1.0/2.0/4.0/9.0",
+     "range": "00/01/02/03/04",
+     "addr": 7
+    },
+    {
+     "name": "EQ M Gain",
+     "desc": "-12 - +5 - +12",
+     "range": "34-4C",
+     "addr": 8
+    },
+    {
+     "name": "EQ H Gain",
+     "desc": "-12 - -3 - +12",
+     "range": "34-4C",
+     "addr": 9
+    },
+    {
+     "name": "PS Coarse",
+     "desc": "-24 - +7 - +12",
+     "range": "28-4C",
+     "addr": 10
+    },
+    {
+     "name": "PS Fine",
+     "desc": "-100 - 0 - +100",
+     "range": "0E-72",
+     "addr": 11
+    },
+    {
+     "name": "PS Mode",
+     "desc": "1-5",
+     "range": "00-04",
+     "addr": 12
+    },
+    {
+     "name": "PS Bal",
+     "desc": "D> 0E - D>60E - D 0<E",
+     "range": "00-7F",
+     "addr": 13
+    },
+    {
+     "name": "PH Man",
+     "desc": "100 - 620 - 8k",
+     "range": "*12",
+     "addr": 14
+    },
+    {
+     "name": "PH Rate",
+     "desc": "0.05 - 0.45 - 6.40",
+     "range": "*7",
+     "addr": 15
+    },
+    {
+     "name": "PH Depth",
+     "desc": "0 - 90 - 127",
+     "range": "00-7F",
+     "addr": 16
+    },
+    {
+     "name": "PH Reso",
+     "desc": "0 - 80 - 127",
+     "range": "00-7F",
+     "addr": 17
+    },
+    {
+     "name": "PH Mix",
+     "desc": "0 - 75 - 127",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0m - 100m - 635m",
+     "range": "*5",
+     "addr": 19
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "Dly Mix",
+     "desc": "0 - 40 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "56": {
+   "n": 56,
+   "name": "Cho / Delay",
+   "msb": 17,
+   "lsb": 0,
+   "params": [
+    {
+     "name": "Cho Dly",
+     "desc": "0 - 1.0m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "Cho Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Cho Depth",
+     "desc": "0 - 120 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Cho Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Cho Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Cho Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0 - 250m - 500m",
+     "range": "*4",
+     "addr": 8
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 9
+    },
+    {
+     "name": "Dly HF",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Dly Bal",
+     "desc": "D> 0E - D>61E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Dly Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "Dly Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "57": {
+   "n": 57,
+   "name": "FL / Delay",
+   "msb": 17,
+   "lsb": 1,
+   "params": [
+    {
+     "name": "FL Dly",
+     "desc": "0 - 1.6m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "FL Rate",
+     "desc": "0.05 - 0.60 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "FL Depth",
+     "desc": "0 - 24 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "FL Fb",
+     "desc": "-98% - +80% - +98%",
+     "range": "0F-71",
+     "addr": 6
+    },
+    {
+     "name": "FL Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "FL Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "FL Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "Dly Time",
+     "desc": "0 - 250m - 500m",
+     "range": "*4",
+     "addr": 8
+    },
+    {
+     "name": "Dly Fb",
+     "desc": "-98% - +32% - +98%",
+     "range": "0F-71",
+     "addr": 9
+    },
+    {
+     "name": "Dly HF",
+     "desc": "315 - 8k/Bypass",
+     "range": "*8",
+     "addr": 10
+    },
+    {
+     "name": "Dly Bal",
+     "desc": "D> 0E - D>74E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "Dly Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "Dly Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "58": {
+   "n": 58,
+   "name": "Cho / Flanger",
+   "msb": 17,
+   "lsb": 2,
+   "params": [
+    {
+     "name": "Cho Dly",
+     "desc": "0 - 1.6m - 100m",
+     "range": "*1",
+     "addr": 3
+    },
+    {
+     "name": "Cho Rate",
+     "desc": "0.05 - 0.45 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "Cho Depth",
+     "desc": "0 - 120 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "Cho Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "Cho Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "Cho Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "FL Dly",
+     "desc": "0 - 1.6m - 100m",
+     "range": "*1",
+     "addr": 8
+    },
+    {
+     "name": "FL Rate",
+     "desc": "0.05 - 0.60 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "FL Depth",
+     "desc": "0 - 24 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "FL Fb",
+     "desc": "-98% - +80% - +98%",
+     "range": "0F-71",
+     "addr": 11
+    },
+    {
+     "name": "FL Bal",
+     "desc": "D> 0E - D=E - D 0<E",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "FL Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "FL Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 88 -127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "59": {
+   "n": 59,
+   "name": "OD1 / OD2",
+   "msb": 17,
+   "lsb": 3,
+   "params": [
+    {
+     "name": "OD1 Sel",
+     "desc": "Odrv/Dist",
+     "range": "00/01",
+     "addr": 3
+    },
+    {
+     "name": "OD1 Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "OD1 Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "OD1 Amp Sw Off/On",
+     "desc": "",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "OD1 Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "OD1 Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "OD2 Sel",
+     "desc": "Odrv/Dist",
+     "range": "00/01",
+     "addr": 8
+    },
+    {
+     "name": "OD2 Drive",
+     "desc": "0 - 76 - 127",
+     "range": "00-7F",
+     "addr": 9
+    },
+    {
+     "name": "OD2 Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 10
+    },
+    {
+     "name": "OD2 Amp Sw Off/On",
+     "desc": "",
+     "range": "00/01",
+     "addr": 11
+    },
+    {
+     "name": "OD2 Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "OD2 Level",
+     "desc": "0 - 84 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "60": {
+   "n": 60,
+   "name": "OD / Rotary",
+   "msb": 17,
+   "lsb": 4,
+   "params": [
+    {
+     "name": "OD Sel",
+     "desc": "Odrv/Dist",
+     "range": "00/01",
+     "addr": 3
+    },
+    {
+     "name": "OD Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "OD Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "OD Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "RT L Slow",
+     "desc": "0.05 - 0.35 - 10.0",
+     "range": "*6",
+     "addr": 8
+    },
+    {
+     "name": "RT L Fast",
+     "desc": "0.05 - 6.40 -10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "RT Lo Accl",
+     "desc": "0 - 3 - 15",
+     "range": "*14",
+     "addr": 10
+    },
+    {
+     "name": "RT Lo Lev",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 11
+    },
+    {
+     "name": "RT H Slow",
+     "desc": "0.05 - 0.90 - 10.0",
+     "range": "*6",
+     "addr": 12
+    },
+    {
+     "name": "RT H Fast",
+     "desc": "0.05 - 7.50 - 10.0",
+     "range": "*6",
+     "addr": 13
+    },
+    {
+     "name": "RT Hi Accl",
+     "desc": "0 - 11 - 15",
+     "range": "*14",
+     "addr": 14
+    },
+    {
+     "name": "RT Hi Lev",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 15
+    },
+    {
+     "name": "RT Sept",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 16
+    },
+    {
+     "name": "RT Speed",
+     "desc": "Slow/Fast",
+     "range": "00/7F",
+     "addr": 17
+    },
+    {
+     "name": "RT Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "RT Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "61": {
+   "n": 61,
+   "name": "OD / Phaser",
+   "msb": 17,
+   "lsb": 5,
+   "params": [
+    {
+     "name": "OD Sel",
+     "desc": "Odrv/Dist",
+     "range": "00/01",
+     "addr": 3
+    },
+    {
+     "name": "OD Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Smal/BltIn/ 2-Stk/3-Stk",
+     "range": "00/01/02/03",
+     "addr": 5
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "OD Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "OD Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "PH Man",
+     "desc": "100 - 620 - 8k",
+     "range": "*12",
+     "addr": 8
+    },
+    {
+     "name": "PH Rate",
+     "desc": "0.05 - 0.85 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "PH Depth",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "PH Reso",
+     "desc": "0 - 16 - 127",
+     "range": "00-7F",
+     "addr": 11
+    },
+    {
+     "name": "PH Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 12
+    },
+    {
+     "name": "PH Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "PH Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "62": {
+   "n": 62,
+   "name": "OD / AutoWah",
+   "msb": 17,
+   "lsb": 6,
+   "params": [
+    {
+     "name": "OD Sel",
+     "desc": "Odrv/Dist",
+     "range": "00/01",
+     "addr": 3
+    },
+    {
+     "name": "OD Drive",
+     "desc": "0 - 48 - 127",
+     "range": "00-7F",
+     "addr": 4
+    },
+    {
+     "name": "OD Amp",
+     "desc": "Small/BltIn/2-Stk/3-Stk     00/01/0",
+     "range": "02/03",
+     "addr": 5
+    },
+    {
+     "name": "OD Amp Sw",
+     "desc": "Off/On",
+     "range": "00/01",
+     "addr": 6
+    },
+    {
+     "name": "OD Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "OD Level",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "AW Filter",
+     "desc": "LPF/BPF",
+     "range": "00/01",
+     "addr": 8
+    },
+    {
+     "name": "AW Sens",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 9
+    },
+    {
+     "name": "AW Man",
+     "desc": "0 - 68 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "AW Peak",
+     "desc": "0 - 62 - 127",
+     "range": "00-7F",
+     "addr": 11
+    },
+    {
+     "name": "AW Rate",
+     "desc": "0.05 - 2.05 - 10.0",
+     "range": "*6",
+     "addr": 12
+    },
+    {
+     "name": "AW Depth",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 13
+    },
+    {
+     "name": "AW Pol",
+     "desc": "Down/Up",
+     "range": "00/01",
+     "addr": 14
+    },
+    {
+     "name": "AW Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "AW Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "63": {
+   "n": 63,
+   "name": "PH / Rotary",
+   "msb": 17,
+   "lsb": 7,
+   "params": [
+    {
+     "name": "PH Man",
+     "desc": "100 - 620 - 8k",
+     "range": "*12",
+     "addr": 3
+    },
+    {
+     "name": "PH Rate",
+     "desc": "0.05 - 0.85 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "PH Depth",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "PH Reso",
+     "desc": "0 - 16 - 127",
+     "range": "00-7F",
+     "addr": 6
+    },
+    {
+     "name": "PH Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "PH Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "PH Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "RT L Slow",
+     "desc": "0.05 - 0.35 - 10.0",
+     "range": "*6",
+     "addr": 8
+    },
+    {
+     "name": "RT L Fast",
+     "desc": "0.05 - 6.40 - 10.0",
+     "range": "*6",
+     "addr": 9
+    },
+    {
+     "name": "RT Lo Accl",
+     "desc": "0 - 3 - 15",
+     "range": "*14",
+     "addr": 10
+    },
+    {
+     "name": "RT Lo Lev",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 11
+    },
+    {
+     "name": "RT H Slow",
+     "desc": "0.05 - 0.90 - 10.0",
+     "range": "*6",
+     "addr": 12
+    },
+    {
+     "name": "RT H Fast",
+     "desc": "0.05 - 7.50 - 10.0",
+     "range": "*6",
+     "addr": 13
+    },
+    {
+     "name": "RT Hi Accl",
+     "desc": "0 - 11 - 15",
+     "range": "*14",
+     "addr": 14
+    },
+    {
+     "name": "RT Hi Lev",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 15
+    },
+    {
+     "name": "RT Sept",
+     "desc": "0 - 96 - 127",
+     "range": "00-7F",
+     "addr": 16
+    },
+    {
+     "name": "RT Speed",
+     "desc": "Slow/Fast",
+     "range": "00/7F",
+     "addr": 17
+    },
+    {
+     "name": "RT Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "RT Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  },
+  "64": {
+   "n": 64,
+   "name": "PH / AutoWah",
+   "msb": 17,
+   "lsb": 8,
+   "params": [
+    {
+     "name": "PH Man",
+     "desc": "100 - 620 - 8k",
+     "range": "*12",
+     "addr": 3
+    },
+    {
+     "name": "PH Rate",
+     "desc": "0.05 - 0.85 - 10.0",
+     "range": "*6",
+     "addr": 4
+    },
+    {
+     "name": "PH Depth",
+     "desc": "0 - 64 - 127",
+     "range": "00-7F",
+     "addr": 5
+    },
+    {
+     "name": "PH Reso",
+     "desc": "0 - 16 - 127",
+     "range": "00-7F",
+     "addr": 6
+    },
+    {
+     "name": "PH Mix",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 7
+    },
+    {
+     "name": "PH Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 18
+    },
+    {
+     "name": "PH Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 19
+    },
+    {
+     "name": "AW Filter",
+     "desc": "LPF/BPF",
+     "range": "00/01",
+     "addr": 8
+    },
+    {
+     "name": "AW Sens",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 9
+    },
+    {
+     "name": "AW Man",
+     "desc": "0 - 68 - 127",
+     "range": "00-7F",
+     "addr": 10
+    },
+    {
+     "name": "AW Peak",
+     "desc": "0 - 62 - 127",
+     "range": "00-7F",
+     "addr": 11
+    },
+    {
+     "name": "AW Rate",
+     "desc": "0.05 - 2.05 - 10.0",
+     "range": "*6",
+     "addr": 12
+    },
+    {
+     "name": "AW Depth",
+     "desc": "0 - 72 - 127",
+     "range": "00-7F",
+     "addr": 13
+    },
+    {
+     "name": "AW Pol",
+     "desc": "Down/Up",
+     "range": "00/01",
+     "addr": 14
+    },
+    {
+     "name": "AW Pan",
+     "desc": "L63 - 0 - R63",
+     "range": "00-7F",
+     "addr": 20
+    },
+    {
+     "name": "AW Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 21
+    },
+    {
+     "name": "Level",
+     "desc": "0 - 127",
+     "range": "00-7F",
+     "addr": 22
+    }
+   ]
+  }
+ },
+ "patches": [
+  {
+   "name": "RB STRAT",
+   "efx": 48,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 0,
+     "inst": "Clean Gt.",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "MILD OD",
+   "efx": 48,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 16,
+     "inst": "TC FrontPick",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "WAH! PEDAL",
+   "efx": 50,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 17,
+     "inst": "TC Rear Pick",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "WARM OD",
+   "efx": 49,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 16,
+     "inst": "TC FrontPick",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "EC STRAT",
+   "efx": 48,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 1,
+     "inst": "Clean Half",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "BLUES OD",
+   "efx": 5,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 19,
+     "inst": "TC Clean 2:",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "HEAVY & WILD",
+   "efx": 49,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 17,
+     "inst": "TC Rear Pick",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "FLANGER GTR",
+   "efx": 49,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 19,
+     "inst": "TC Clean 2:",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SLOW GEAR",
+   "efx": 40,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 19,
+     "inst": "TC Clean 2:",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "MID-BOOST",
+   "efx": 50,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 17,
+     "inst": "TC Rear Pick",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "POWER RHYTHM",
+   "efx": 49,
+   "parts": [
+    {
+     "map": "55",
+     "pc": 28,
+     "cc": 0,
+     "inst": "\"Muted Gt.",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "HEAVY RHYTHM",
+   "efx": 49,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 34,
+     "cc": 1,
+     "inst": "Picked Bass2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "NOISY RHYTHM",
+   "efx": 59,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 3,
+     "inst": "Open Hard 2",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 2,
+     "inst": "Open Hard 1",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "CLEAN RHYTHM",
+   "efx": 51,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 3,
+     "inst": "Open Hard 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "WAH RHYTHM",
+   "efx": 52,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 3,
+     "inst": "Open Hard 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "T-WAH GUITAR",
+   "efx": 8,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 3,
+     "inst": "Open Hard 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "FUNK PHASE",
+   "efx": 7,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 3,
+     "inst": "Open Hard 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "MELLOW&CLEAN",
+   "efx": 51,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 16,
+     "inst": "TC FrontPick",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "COOL ARP.",
+   "efx": 51,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 1,
+     "inst": "Clean Half",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SURF GUITAR",
+   "efx": 51,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 28,
+     "cc": 2,
+     "inst": "TC Muted Gt.",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "JAZZ GUITAR",
+   "efx": 51,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 26,
+     "cc": 0,
+     "inst": "Jazz Gt.",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "NYLON BOSSA",
+   "efx": 26,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 24,
+     "cc": 32,
+     "inst": "Nylon Gt.2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "ENH. NYLON",
+   "efx": 43,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 24,
+     "cc": 0,
+     "inst": "Nylon-str.Gt",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "ENH. STEEL",
+   "efx": 41,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 25,
+     "cc": 32,
+     "inst": "Steel Gt.2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "COMP PK BASS",
+   "efx": 53,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 34,
+     "cc": 0,
+     "inst": "Picked Bass",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "DRIVE PK BS.",
+   "efx": 53,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 34,
+     "cc": 0,
+     "inst": "Picked Bass",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "JP FRETLESS",
+   "efx": 53,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 35,
+     "cc": 1,
+     "inst": "Fretless Bs2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "HYPER BASS",
+   "efx": 62,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 38,
+     "cc": 1,
+     "inst": "SynthBass101",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 36,
+     "cc": 9,
+     "inst": "Unison Slap",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "303 SAW BASS",
+   "efx": 7,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 38,
+     "cc": 13,
+     "inst": "TB303 Saw Bs",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "FAT S.BASS",
+   "efx": 7,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 39,
+     "cc": 0,
+     "inst": "Synth Bass 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SYNC BASS",
+   "efx": 7,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 39,
+     "cc": 24,
+     "inst": "Sync Bass",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "HUMAN BASS",
+   "efx": 4,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 38,
+     "cc": 9,
+     "inst": "TB303 Bass",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PH RHODES",
+   "efx": 7,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 4,
+     "cc": 0,
+     "inst": "E.Piano 1",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "TREM RHODES",
+   "efx": 17,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 4,
+     "cc": 0,
+     "inst": "E.Piano 1",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "TREM WURLY",
+   "efx": 54,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 4,
+     "cc": 24,
+     "inst": "Wurly",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "TREM FM EP",
+   "efx": 17,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 5,
+     "cc": 16,
+     "inst": "ST. FM EP",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SC RHODES",
+   "efx": 54,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 4,
+     "cc": 0,
+     "inst": "E.Piano 1",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SOFT E.PIANO",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "88",
+     "pc": 4,
+     "cc": 8,
+     "inst": "'St.Soft EP",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "COMP PIANO",
+   "efx": 14,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 2,
+     "cc": 0,
+     "inst": "Piano 3",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "COMP CLAV.",
+   "efx": 51,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 7,
+     "cc": 0,
+     "inst": "Clav.",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "THE E.ORGAN",
+   "efx": 9,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 16,
+     "cc": 0,
+     "inst": "Organ 1",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "TREM ORGAN",
+   "efx": 9,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 16,
+     "cc": 8,
+     "inst": "Trem. Organ",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "5TH ORGAN",
+   "efx": 9,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 16,
+     "cc": 48,
+     "inst": "5th Organ",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PERC. ORGAN",
+   "efx": 9,
+   "parts": [
+    {
+     "map": "88",
+     "pc": 17,
+     "cc": 0,
+     "inst": "'Organ 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "OD-ROT ORGAN",
+   "efx": 47,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 16,
+     "cc": 0,
+     "inst": "Organ 1",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "THEARTER ORG",
+   "efx": 26,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 19,
+     "cc": 33,
+     "inst": "Theater Org.",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "DIGI ORGAN",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 16,
+     "cc": 28,
+     "inst": "VS Organ",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "ORGAN BELL",
+   "efx": 9,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 100,
+     "cc": 8,
+     "inst": "Org Bell",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "CHO STRINGS",
+   "efx": 18,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 48,
+     "cc": 16,
+     "inst": "St. Strings",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "WIDE STRINGS",
+   "efx": 28,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 48,
+     "cc": 2,
+     "inst": "ChamberStr:",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "WIDE SYN STR",
+   "efx": 20,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 49,
+     "cc": 9,
+     "inst": "Warm Strings",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "WARM STRINGS",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 50,
+     "cc": 9,
+     "inst": "Syn.Strings4",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "FAT STRINGS",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 48,
+     "cc": 12,
+     "inst": "Strings+Horn",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SPIC WALTZ",
+   "efx": 23,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 45,
+     "cc": 16,
+     "inst": "Solo Spic.",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "WIDE CHOIR",
+   "efx": 28,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 52,
+     "cc": 9,
+     "inst": "Melted Choir",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "DUAL CHOIR",
+   "efx": 21,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 52,
+     "cc": 8,
+     "inst": "St.ChoirAahs",
+     "drum": false
+    },
+    {
+     "map": "88",
+     "pc": 52,
+     "cc": 32,
+     "inst": "'ChoirAahs 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "NYMAN BRASS",
+   "efx": 3,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 61,
+     "cc": 0,
+     "inst": "Brass 1",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 65,
+     "cc": 16,
+     "inst": "AltoSax + Tp",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SAX LIVE",
+   "efx": 30,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 66,
+     "cc": 9,
+     "inst": "St.Tenor Sax",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 67,
+     "cc": 0,
+     "inst": "Baritone Sax",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SFORZANDO",
+   "efx": 3,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 61,
+     "cc": 10,
+     "inst": "Brass sfz",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "TS WIND",
+   "efx": 29,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 90,
+     "cc": 3,
+     "inst": "Poly King",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "ANALOG BRS",
+   "efx": 3,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 62,
+     "cc": 1,
+     "inst": "JUNO Brass",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 62,
+     "cc": 9,
+     "inst": "P5 Brass",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "OCT BRASS",
+   "efx": 3,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 62,
+     "cc": 16,
+     "inst": "Oct SynBrass",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 62,
+     "cc": 2,
+     "inst": "Stack Brass",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "M.TROMBONE",
+   "efx": 2,
+   "parts": [
+    {
+     "map": "55",
+     "pc": 57,
+     "cc": 0,
+     "inst": "\"Trombone",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "DRIVE TENOR",
+   "efx": 35,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 66,
+     "cc": 0,
+     "inst": "Tenor Sax",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PM SYN LEAD",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 81,
+     "cc": 17,
+     "inst": "PM Lead",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "MAD CHO LEAD",
+   "efx": 16,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 83,
+     "cc": 8,
+     "inst": "Mad Lead",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "MG SAW LEAD",
+   "efx": 23,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 81,
+     "cc": 31,
+     "inst": "MG Saw Lead",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "OB SAW LEAD",
+   "efx": 23,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 81,
+     "cc": 32,
+     "inst": "OB Saw Lead",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SINE LEAD",
+   "efx": 23,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 80,
+     "cc": 9,
+     "inst": "Sine Lead",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "BND WAH LEAD",
+   "efx": 50,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 65,
+     "cc": 0,
+     "inst": "Alto Sax",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SUPER SAW",
+   "efx": 55,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 81,
+     "cc": 0,
+     "inst": "Saw Wave",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SILKY LEAD",
+   "efx": 55,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 16,
+     "cc": 32,
+     "inst": "70's E.Organ",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "STEP SYNC",
+   "efx": 11,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 84,
+     "cc": 17,
+     "inst": "Fat SyncLead",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PHASER HPF",
+   "efx": 7,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 95,
+     "cc": 11,
+     "inst": "Bag Sweep",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PHASER STR",
+   "efx": 7,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 51,
+     "cc": 8,
+     "inst": "Air Strings",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PROLOGUE",
+   "efx": 7,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 97,
+     "cc": 3,
+     "inst": "Prologue 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "MOD SWEEP",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 95,
+     "cc": 11,
+     "inst": "Bag Sweep",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "MOD HEAVEN",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 91,
+     "cc": 2,
+     "inst": "SC Heaven",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "RAVE SHIFT",
+   "efx": 29,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 97,
+     "cc": 8,
+     "inst": "Rave",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "FB FAR OUT!",
+   "efx": 25,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 30,
+     "cc": 9,
+     "inst": "Feedback Gt2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "STEP BELL",
+   "efx": 11,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 92,
+     "cc": 0,
+     "inst": "Bowed Glass",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "STEP STRINGS",
+   "efx": 11,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 51,
+     "cc": 2,
+     "inst": "JUNO Strings",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SEQ HORN PAD",
+   "efx": 11,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 89,
+     "cc": 2,
+     "inst": "Horn Pad",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "THE SOFT PAD",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "88",
+     "pc": 89,
+     "cc": 4,
+     "inst": "'Soft Pad",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "RATTLE PAD",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 96,
+     "cc": 4,
+     "inst": "Rattle Pad",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "WARM VOX PAD",
+   "efx": 22,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 94,
+     "cc": 1,
+     "inst": "Vox Pad",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "JP8 SQR PAD",
+   "efx": 19,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 92,
+     "cc": 2,
+     "inst": "JP8 Sqr Pad",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "OB SOFT PAD",
+   "efx": 19,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 89,
+     "cc": 4,
+     "inst": "OB Soft Pad",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PAN SEQENCE",
+   "efx": 23,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 102,
+     "cc": 8,
+     "inst": "Pan Sequence",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "ASIAN DREAM",
+   "efx": 24,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 107,
+     "cc": 1,
+     "inst": "Gu Zheng",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 88,
+     "cc": 0,
+     "inst": "Fantasia",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "ER HU LEAD",
+   "efx": 24,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 110,
+     "cc": 8,
+     "inst": "Er Hu",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "ZITHER",
+   "efx": 21,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 15,
+     "cc": 16,
+     "inst": "Zither 1",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PSY. TABLA",
+   "efx": 55,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 31,
+     "cc": 16,
+     "inst": "Ac.Gt.Harmnx",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SITAR DANCE",
+   "efx": 55,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 104,
+     "cc": 3,
+     "inst": "Sitar 3",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SPIN BIWA",
+   "efx": 31,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 120,
+     "cc": 13,
+     "inst": "Biwa Tremolo",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "ARABIC LEAD",
+   "efx": 23,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 111,
+     "cc": 24,
+     "inst": "Mizmar",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "3D BUBBLE",
+   "efx": 31,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 122,
+     "cc": 5,
+     "inst": "Bubble",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "3D ROTARY",
+   "efx": 31,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 16,
+     "cc": 0,
+     "inst": "Organ 1",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "3D DIDGERIDO",
+   "efx": 31,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 109,
+     "cc": 8,
+     "inst": "Didgeridoo",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "3D BAG SWEEP",
+   "efx": 20,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 95,
+     "cc": 11,
+     "inst": "Bag Sweep",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "3D UFO......",
+   "efx": 20,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 101,
+     "cc": 14,
+     "inst": "UFO FX",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "3D CHURCH",
+   "efx": 20,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 14,
+     "cc": 8,
+     "inst": "Church Bell",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "3D IMPCT HIT",
+   "efx": 28,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 55,
+     "cc": 12,
+     "inst": "Shock Wave",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "3D EXCITE !!",
+   "efx": 28,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 126,
+     "cc": 6,
+     "inst": "Applause 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "LO-FI AUH",
+   "efx": 33,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 101,
+     "cc": 4,
+     "inst": "Auhbient",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "LO-FI TECHNO",
+   "efx": 33,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 101,
+     "cc": 13,
+     "inst": "Alternative",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "LO-FI ORGAN",
+   "efx": 33,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 16,
+     "cc": 24,
+     "inst": "Cheese Organ",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "LO-FI SQUARE",
+   "efx": 33,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 92,
+     "cc": 2,
+     "inst": "JP8 Sqr Pad",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "LO-FI VOX",
+   "efx": 33,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 85,
+     "cc": 8,
+     "inst": "Vox Lead",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "LO-FI JAZZ",
+   "efx": 34,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 32,
+     "cc": 0,
+     "inst": "JAZZ SET",
+     "drum": true
+    }
+   ]
+  },
+  {
+   "name": "LO-FI DUO",
+   "efx": 34,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 3,
+     "cc": 8,
+     "inst": "Honky-tonk 2",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 32,
+     "cc": 0,
+     "inst": "Acoustic Bs.",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "LO-FI GND NZ",
+   "efx": 34,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 29,
+     "cc": 3,
+     "inst": "More Drive",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "LEAD & SEQ",
+   "efx": 19,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 84,
+     "cc": 16,
+     "inst": "P5 Sync Lead",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 38,
+     "cc": 24,
+     "inst": "Arpeggio Bs",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PIANO & BASS",
+   "efx": 0,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 0,
+     "cc": 0,
+     "inst": "Piano 1",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 32,
+     "cc": 0,
+     "inst": "Acoustic Bs.",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "GTR & ORGAN",
+   "efx": 60,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 16,
+     "cc": 0,
+     "inst": "Organ 1",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 27,
+     "cc": 16,
+     "inst": "TC FrontPick",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "VIOLIN&CELLO",
+   "efx": 43,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 40,
+     "cc": 0,
+     "inst": "Violin :",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 42,
+     "cc": 0,
+     "inst": "Cello :",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "BRS. & FLUTE",
+   "efx": 0,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 73,
+     "cc": 1,
+     "inst": "Flute 2 :",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 61,
+     "cc": 8,
+     "inst": "Brass 2",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SYNTH SPLIT",
+   "efx": 0,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 81,
+     "cc": 18,
+     "inst": "CS Saw Lead",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 62,
+     "cc": 1,
+     "inst": "JUNO Brass",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "PIANO & VIBE",
+   "efx": 26,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 0,
+     "cc": 0,
+     "inst": "Piano 1",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 11,
+     "cc": 0,
+     "inst": "Vibraphone",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "JAZZ RHYTHM",
+   "efx": 0,
+   "parts": [
+    {
+     "map": "88",
+     "pc": 32,
+     "cc": 0,
+     "inst": "'AcousticBs.",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 32,
+     "cc": 0,
+     "inst": "JAZZ SET",
+     "drum": true
+    }
+   ]
+  },
+  {
+   "name": "ACID PANNER",
+   "efx": 13,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 84,
+     "cc": 9,
+     "inst": "Acid Guitar1",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "LFO RAVE",
+   "efx": 19,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 101,
+     "cc": 10,
+     "inst": "LFO RAVE",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "FLANGER NZ",
+   "efx": 10,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 122,
+     "cc": 16,
+     "inst": "Pink Noise",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "1 KEY STROKE",
+   "efx": 24,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 120,
+     "cc": 11,
+     "inst": "Chord Stroke",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "INET LIVE:-)",
+   "efx": 34,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 126,
+     "cc": 7,
+     "inst": "Small Club",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "DOUBLE HIT",
+   "efx": 0,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 55,
+     "cc": 17,
+     "inst": "Techno Hit",
+     "drum": false
+    },
+    {
+     "map": "Native",
+     "pc": 55,
+     "cc": 16,
+     "inst": "Lo Fi Rave",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "SCRAPE SHIFT",
+   "efx": 30,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 120,
+     "cc": 6,
+     "inst": "Pick Scrape",
+     "drum": false
+    }
+   ]
+  },
+  {
+   "name": "EPILOGUE",
+   "efx": 30,
+   "parts": [
+    {
+     "map": "Native",
+     "pc": 54,
+     "cc": 16,
+     "inst": "VP330 Choir",
+     "drum": false
+    }
+   ]
+  }
+ ]
+}

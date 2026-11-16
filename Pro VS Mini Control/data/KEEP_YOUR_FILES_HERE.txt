@@ -1,0 +1,2 @@
+Your settings, saved sounds and patch tables are kept in this folder.
+Rebuilding never touches it. Do not delete it.
