@@ -1,8 +1,12 @@
 # midi-control-apps
 Here are descriptions for all twelve apps, plus the Midi Captain pages FW4 to FW5 converter. 
 
+## Captain ChordStomp (firmware 5)
+Visual editor for the PaintAudio MIDI Captain STD’s SuperMode page files.
+Like the MIDI Captain Editor below but now has the ablility to program Chords and Notes too in a very visual GUI interface.
+
 ## MIDI Captain Editor (firmware 5)
-Visual editor for the PaintAudio MIDI Captain STD’s Super Mode page files.
+Visual editor for the PaintAudio MIDI Captain STD’s SuperMode page files.
 Edit what each of the ten footswitches sends on a short press, a release and a long press. It covers program changes, CC messages, toggle CCs, bank changes and page turns. It also has the page and global settings, such as patch grouping, bank select, tap tempo, MIDI Thru, the encoder, the expression pedals and the LEDs. It can send a key’s messages to check them first.
 
 ## MIDI Captain Editor FW4
